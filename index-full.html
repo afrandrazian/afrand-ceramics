@@ -1,0 +1,1165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Afrand Ceramics</title>
+  <style>
+    :root {
+      --font-size-display: 154px;
+      --line-height-display: 1;
+      --letter-spacing-display: -2px;
+      --font-size-h1: 63px;
+      --line-height-h1: 1;
+      --letter-spacing-h1: -2px;
+      --font-size-h2: 32px;
+      --line-height-h2: 1;
+      --letter-spacing-h2: -1px;
+      --font-size-p1: 25px;
+      --line-height-p1: 1;
+      --letter-spacing-p1: -0.5px;
+      --font-size-p2: 16px;
+      --line-height--p2: 1;
+      --letter-spacing-p2: 0;
+      --extra-large: 360px;
+      --large: 270px;
+      --mediumAndSmall: 110px;
+      --medium: 90px;
+      --paddingCard: 30px;
+      --small: 20px;
+      --limited-max-width: 1920px;
+      --horizontal-padding: 20px;
+      --color-light: #ffffff;
+      --color-dark: #000000;
+      --light-gray: #e5e5e5;
+      --gray: #808080;
+      --color-error: #ed3333;
+      --concrete: #f2f2f2;
+      --pampas: #f1ede8;
+      --cararra: #efefea;
+      --porcelain: #eef2f3;
+      --peach: #f8f4f3;
+      --ecru: #f9f7f0;
+      --ebb: #efeaea;
+      --wood: #f4f0e9;
+      --athens: #eef0f3;
+      --nurse: #f2f4f2;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      border: 0;
+      font: inherit;
+      vertical-align: baseline;
+      line-height: 1;
+      padding: 0;
+      margin: 0;
+    }
+
+    /* ── ACCESSIBILITY ── */
+    :focus-visible {
+      outline: 2px solid #b07a55;
+      outline-offset: 3px;
+      border-radius: 4px;
+    }
+    .skip-link {
+      position: absolute;
+      top: -100%;
+      left: 16px;
+      z-index: 9999;
+      background: #b07a55;
+      color: #fff;
+      padding: 8px 18px;
+      border-radius: 0 0 8px 8px;
+      font-size: 14px;
+      font-weight: 600;
+      text-decoration: none;
+      letter-spacing: 0.2px;
+      transition: top 0.15s;
+    }
+    .skip-link:focus {
+      top: 0;
+      outline-color: #fff;
+    }
+
+    body {
+      font-family: "NeueHaasGrotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-style: normal;
+      background: linear-gradient(180deg, #f7f3ee 0%, #faf9f6 30%, #f5f0eb 70%, #ede8e2 100%);
+      color: var(--color-dark);
+      min-height: 100vh;
+    }
+
+    /* ── HERO ── */
+    .hero {
+      /* creamy top/bottom frame; tighter sides so image breathes wider */
+      padding: 36px 32px 28px;
+      margin-bottom: 70px;
+    }
+    .hero-inner {
+      position: relative;
+      border-radius: 12px;
+      overflow: hidden;
+      /* cap height so banner fills most of viewport and products just peek below */
+      max-height: calc(100vh - 200px);
+      box-shadow:
+        0 4px 24px rgba(0,0,0,0.10),
+        0 1px 4px rgba(0,0,0,0.06);
+    }
+    .hero-inner img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+    }
+    .hero-inner::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at center, transparent 55%, rgba(0,0,0,0.18) 100%);
+      pointer-events: none;
+    }
+
+    /* ── SITE HEADER ── */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 200;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 32px;
+      height: 52px;
+      background: linear-gradient(90deg, var(--pampas) 0%, var(--wood) 40%, var(--wood) 60%, var(--pampas) 100%);
+      border-bottom: 1px solid rgba(0,0,0,0.08);
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.7), 0 1px 5px rgba(0,0,0,0.05);
+    }
+    .hamburger-btn {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 5px;
+      width: 36px;
+      height: 36px;
+      background: none;
+      cursor: pointer;
+      border-radius: 6px;
+      padding: 8px 7px;
+      transition: background 0.15s;
+    }
+    .hamburger-btn:hover { background: rgba(0,0,0,0.06); }
+    .hamburger-btn span {
+      display: block;
+      width: 100%;
+      height: 1.5px;
+      background: #5c4d43;
+      border-radius: 2px;
+    }
+    .header-ig-link {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 13px;
+      font-weight: 500;
+      color: #6b5c4e;
+      text-decoration: none;
+      letter-spacing: 0.3px;
+      padding: 6px 10px;
+      border-radius: 6px;
+      transition: background 0.15s, color 0.15s;
+    }
+    .header-ig-link:hover { background: rgba(0,0,0,0.05); color: #3d3028; }
+
+    /* ── NAV DRAWER ── */
+    .nav-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.28);
+      z-index: 250;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.25s;
+    }
+    .nav-backdrop.open { opacity: 1; pointer-events: auto; }
+    .nav-drawer {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 272px;
+      height: 100%;
+      background: linear-gradient(180deg, #ffffff 0%, #fdfcfa 100%);
+      z-index: 300;
+      transform: translateX(-100%);
+      transition: transform 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+      box-shadow: 4px 0 28px rgba(0,0,0,0.11);
+      overflow-y: auto;
+    }
+    .nav-drawer.open { transform: translateX(0); }
+    .drawer-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+      height: 52px;
+      border-bottom: 1px solid rgba(0,0,0,0.07);
+    }
+    .drawer-title {
+      font-size: 13px;
+      font-weight: 600;
+      color: #2d1f16;
+      letter-spacing: 0.2px;
+    }
+    .drawer-close {
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: none;
+      cursor: pointer;
+      border-radius: 6px;
+      color: #5c4d43;
+      font-size: 16px;
+      transition: background 0.15s;
+    }
+    .drawer-close:hover { background: rgba(0,0,0,0.06); }
+    .drawer-section-label {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #b07a55;
+      padding: 22px 20px 8px;
+    }
+    .drawer-link {
+      display: block;
+      padding: 10px 20px 10px 34px;
+      font-size: 14px;
+      font-weight: 500;
+      color: #4a3d33;
+      text-decoration: none;
+      letter-spacing: 0.2px;
+      transition: background 0.12s, color 0.12s;
+    }
+    .drawer-link:hover { background: rgba(176,122,85,0.08); color: #2d1f16; }
+    .drawer-link-top { padding-left: 20px; }
+    .drawer-divider {
+      height: 1px;
+      background: rgba(0,0,0,0.07);
+      margin: 14px 20px;
+    }
+
+    /* ── PAGE WRAPPER ── */
+    .page-content {
+      padding: 0 60px;
+      max-width: var(--limited-max-width);
+      margin: 0 auto;
+    }
+
+    /* scroll offset so sticky nav doesn't cover section top */
+    [data-nav] {
+      scroll-margin-top: 60px;
+    }
+
+    /* ── CATEGORY SECTION ── */
+    .category-section {
+      margin-top: var(--mediumAndSmall);
+    }
+    /* First section has generous breathing room under the nav */
+    .page-content > .category-section:first-child {
+      margin-top: 80px;
+    }
+
+    /* ── CATEGORY HEADER ── */
+    .category-header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 14px 0;
+      /* soft gradient rule — fades to transparent at the edges, no hard line */
+      background:
+        linear-gradient(90deg, transparent 0%, rgba(0,0,0,0.07) 25%, rgba(0,0,0,0.07) 75%, transparent 100%) top / 100% 1px no-repeat,
+        linear-gradient(180deg, rgba(0,0,0,0.015) 0%, transparent 100%);
+      margin-bottom: 1px;
+    }
+    .category-name {
+      text-align: center;
+      font-size: var(--font-size-p2);
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+
+    /* ── PRODUCT GRID ── */
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      background: linear-gradient(135deg, rgba(241,237,232,0.6) 0%, rgba(244,240,233,0.6) 100%);
+      padding: 12px;
+      border-radius: 10px;
+      box-shadow:
+        inset 0 1px 3px rgba(0,0,0,0.04),
+        0 2px 8px rgba(0,0,0,0.05);
+    }
+    .product-card {
+      background: var(--color-light);
+      cursor: pointer;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow:
+        0 1px 3px rgba(0,0,0,0.08),
+        0 4px 12px rgba(0,0,0,0.05);
+      transition: box-shadow 0.3s ease, transform 0.3s ease;
+    }
+    .product-card:hover {
+      box-shadow:
+        0 4px 16px rgba(0,0,0,0.13),
+        0 1px 4px rgba(0,0,0,0.07);
+      transform: translateY(-2px);
+    }
+    .product-image-wrap {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      max-height: 330px;
+      overflow: hidden;
+      background: var(--concrete);
+      position: relative;
+    }
+    .product-image-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.45s ease;
+    }
+    .product-card:hover .product-image-wrap img {
+      transform: scale(1.05);
+    }
+    .product-image-wrap::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, transparent 60%, rgba(0,0,0,0.08) 100%);
+      pointer-events: none;
+    }
+    .product-info {
+      padding: 18px var(--paddingCard) 22px;
+      background: linear-gradient(180deg, #ffffff 0%, #fdfcfa 100%);
+    }
+    .product-name {
+      font-size: var(--font-size-p2);
+      font-weight: 500;
+      line-height: 1.35;
+      margin-bottom: 5px;
+    }
+    .product-maker {
+      font-size: 11px;
+      color: #6b5c4e; /* improved contrast: ~5.8:1 on white */
+      letter-spacing: 0.3px;
+      margin-bottom: 10px;
+    }
+    .product-price {
+      font-size: var(--font-size-p2);
+      font-weight: 400;
+    }
+
+    /* ── TRUST STRIP ── */
+    .text-strip {
+      margin-top: 36px; /* 1/3 of --mediumAndSmall (110px) */
+      padding: 14px var(--horizontal-padding);
+      background: linear-gradient(90deg, var(--pampas) 0%, var(--wood) 50%, var(--pampas) 100%);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 60px;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.6), inset 0 -1px 0 rgba(0,0,0,0.04);
+    }
+    .text-strip p {
+      font-size: 11px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #6b5c4e;
+    }
+    .text-strip span {
+      color: #c4b4a6;
+    }
+
+    /* ── SOLD ARCHIVE ── */
+    .sold-section {
+      margin-top: var(--mediumAndSmall);
+    }
+    .sold-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: center;
+      flex-direction: column;
+      padding: 14px 0 8px;
+      border-top: 1px solid rgba(0,0,0,0.15);
+      background: linear-gradient(180deg, rgba(0,0,0,0.025) 0%, transparent 100%);
+      margin-bottom: 1px;
+      gap: 4px;
+    }
+    .sold-header .category-name {
+      display: block;
+      text-align: center;
+      width: 100%;
+    }
+    .sold-subtitle {
+      font-size: 11px;
+      color: var(--gray);
+      text-align: center;
+      width: 100%;
+      letter-spacing: 0.3px;
+    }
+    .product-card.is-sold {
+      opacity: 0.72;
+    }
+    .product-card.is-sold .product-image-wrap::before {
+      content: "SOLD";
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      background: rgba(30,20,15,0.78);
+      color: #fff;
+      font-size: 10px;
+      letter-spacing: 1.5px;
+      font-weight: 600;
+      padding: 4px 8px;
+      border-radius: 4px;
+      z-index: 2;
+    }
+    .product-card.is-sold:hover {
+      transform: none;
+      box-shadow:
+        0 1px 3px rgba(0,0,0,0.08),
+        0 4px 12px rgba(0,0,0,0.05);
+    }
+    .product-price.sold-price {
+      text-decoration: line-through;
+      color: var(--gray);
+    }
+
+    /* ── BUY LINK ── */
+    .buy-link {
+      display: inline-block;
+      margin-top: 10px;
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+      color: #b07a55;
+      text-decoration: none;
+      padding: 6px 14px;
+      border: 1px solid rgba(176,122,85,0.35);
+      border-radius: 6px;
+      transition: background 0.15s, color 0.15s;
+    }
+    .buy-link:hover {
+      background: rgba(176,122,85,0.08);
+      color: #8a5e3a;
+    }
+
+    /* ── STALENESS NOTICE ── */
+    .staleness-notice {
+      text-align: center;
+      font-size: 11px;
+      color: var(--gray);
+      letter-spacing: 0.3px;
+      margin-top: 18px;
+    }
+    .staleness-notice a {
+      color: #b07a55;
+      text-decoration: none;
+    }
+    .staleness-notice a:hover { text-decoration: underline; }
+
+    /* ── LOADING / ERROR ── */
+    .products-loading {
+      text-align: center;
+      padding: 80px 20px;
+      font-size: 14px;
+      color: var(--gray);
+      letter-spacing: 0.3px;
+    }
+    .products-error {
+      text-align: center;
+      padding: 60px 20px;
+      font-size: 14px;
+      color: var(--color-error);
+    }
+
+    /* ── TESTIMONIALS ── */
+    .testimonials-section {
+      margin-top: var(--mediumAndSmall);
+    }
+    .testimonials-header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 14px 0;
+      border-top: 1px solid rgba(0,0,0,0.15);
+      background: linear-gradient(180deg, rgba(0,0,0,0.025) 0%, transparent 100%);
+      margin-bottom: 1px;
+    }
+    .testimonials-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      background: linear-gradient(135deg, rgba(241,237,232,0.6) 0%, rgba(244,240,233,0.6) 100%);
+      padding: 12px;
+      border-radius: 10px;
+      box-shadow: inset 0 1px 3px rgba(0,0,0,0.04), 0 2px 8px rgba(0,0,0,0.05);
+    }
+    .testimonial-card {
+      border-radius: 8px;
+      padding: 22px 24px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 4px 12px rgba(0,0,0,0.05);
+      background: linear-gradient(180deg, #ffffff 0%, #fdfcfa 100%);
+      display: flex;
+      gap: 20px;
+      align-items: flex-start; /* top-align so bylines sit at the same height across both cards */
+    }
+    .testimonial-avatar {
+      width: 116px;
+      height: 116px;
+      border-radius: 8px;
+      object-fit: cover;
+      flex-shrink: 0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+    .testimonial-avatar:hover {
+      transform: scale(1.04);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.14);
+    }
+    .testimonial-content {
+      flex: 1;
+      min-width: 0;
+    }
+    .testimonial-byline {
+      font-size: 11px;
+      font-weight: 600;
+      color: #6b5c4e;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      margin-bottom: 9px;
+    }
+    .testimonial-text {
+      font-size: 14px;
+      line-height: 1.65;
+      color: #4a3f38;
+      font-style: italic;
+    }
+    .testimonial-meta {
+      text-transform: none;
+      font-weight: 400;
+      font-size: 10px;
+      color: #9e9087;
+      letter-spacing: 0.4px;
+    }
+    .testimonial-stars {
+      color: #c8915a;
+      letter-spacing: 1px;
+      font-size: 12px;
+    }
+
+    /* ── INSTAGRAM CTA ── */
+    .instagram-section {
+      margin-top: 36px; /* 1/3 of --mediumAndSmall (110px) */
+      text-align: center;
+      padding: 40px 20px;
+      background: linear-gradient(135deg, rgba(241,237,232,0.5) 0%, rgba(244,240,233,0.5) 100%);
+      border-radius: 10px;
+      border: 1px solid rgba(0,0,0,0.06);
+    }
+    .instagram-label {
+      font-size: 11px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #6b5c4e;
+      margin-bottom: 12px;
+    }
+    .instagram-handle-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 22px;
+      font-weight: 400;
+      letter-spacing: -0.3px;
+      color: #3d3028;
+      text-decoration: none;
+      margin-bottom: 14px;
+      transition: opacity 0.2s;
+    }
+    .instagram-handle-link:hover {
+      opacity: 0.7;
+    }
+    .instagram-icon {
+      display: block;
+      flex-shrink: 0;
+    }
+    .custom-cta {
+      margin-top: 4px;
+      font-size: 12px;
+      color: #6b5c4e;
+      letter-spacing: 0.2px;
+    }
+
+    /* ── LIGHTBOX ── */
+    #lightbox {
+      position: fixed;
+      inset: 0;
+      background: rgba(242,237,230,0.45);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.22s ease;
+    }
+    #lightbox.open {
+      opacity: 1;
+      pointer-events: all;
+    }
+    #lightbox-img {
+      max-width: min(92vw, 900px);
+      max-height: 90vh;
+      object-fit: contain;
+      border-radius: 10px;
+      box-shadow:
+        0 24px 64px rgba(0,0,0,0.22),
+        0 4px 16px rgba(0,0,0,0.12);
+      display: block;
+      transform: scale(0.88);
+      opacity: 0;
+      transition: transform 0.32s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.22s ease;
+    }
+    #lightbox.open #lightbox-img {
+      transform: scale(1);
+      opacity: 1;
+    }
+    #lightbox-close {
+      position: absolute;
+      top: 18px;
+      right: 22px;
+      background: rgba(255,255,255,0.72);
+      border: none;
+      color: rgba(45,35,24,0.65);
+      font-size: 20px;
+      line-height: 1;
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.2s, color 0.2s;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.12);
+    }
+    #lightbox-close:hover {
+      background: rgba(255,255,255,0.95);
+      color: #2d2318;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      margin-top: 20px; /* 1/3 of previous 60px */
+      background: linear-gradient(180deg, #ede8e2 0%, #e5dfd8 100%);
+      padding: 22px 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 40px;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);
+    }
+    .footer-tagline {
+      font-size: 12px;
+      color: #7a6b60;
+      line-height: 1.6;
+      max-width: 600px;
+    }
+    .footer-links {
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      flex-shrink: 0;
+    }
+    .footer-links a {
+      font-size: 12px;
+      color: #7a6b60;
+      text-decoration: none;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .footer-links a:hover {
+      color: #3d3028;
+    }
+    .footer-bottom {
+      background: #ddd7d0;
+      padding: 10px 60px;
+      font-size: 11px;
+      color: #5c4f44; /* improved contrast: ~5.4:1 on #ddd7d0 */
+      display: flex;
+      justify-content: space-between;
+    }
+
+    /* ── RESPONSIVE ── */
+
+    @media (max-width: 1024px) {
+      .hero { padding: 24px 20px 20px; margin-bottom: 44px; }
+      .hero-inner { max-height: calc(100vh - 160px); }
+      .page-content { padding: 0 24px; }
+      .site-header { padding: 0 24px; }
+      .product-grid { grid-template-columns: repeat(2, 1fr) !important; }
+      .category-section { margin-top: 64px; }
+      .page-content > .category-section:first-child { margin-top: 110px; }
+      footer { padding: 20px 24px; }
+      .footer-bottom { padding: 10px 24px; }
+    }
+
+    @media (max-width: 600px) {
+      .hero { padding: 10px 10px 8px; margin-bottom: 28px; }
+      .hero-inner { border-radius: 8px; max-height: calc(100vh - 120px); }
+      .page-content { padding: 0 10px; }
+      .site-header { padding: 0 16px; }
+      .category-section { margin-top: 40px; }
+      .page-content > .category-section:first-child { margin-top: 60px; }
+      .product-grid {
+        grid-template-columns: 1fr !important;
+        gap: 8px;
+        padding: 8px;
+        border-radius: 8px;
+      }
+      .product-info { padding: 14px 16px 18px; }
+      .text-strip {
+        flex-direction: column;
+        gap: 8px;
+        padding: 14px 16px;
+        margin-top: 14px;
+        border-radius: 8px;
+      }
+      .text-strip span { display: none; }
+      .testimonials-grid {
+        grid-template-columns: 1fr !important;
+        gap: 8px;
+        padding: 8px;
+      }
+      .testimonial-avatar { width: 72px; height: 72px; }
+      .testimonial-card { padding: 18px 16px; gap: 12px; flex-direction: column; align-items: center; }
+      .testimonial-content { width: 100%; }
+      .testimonial-byline { text-align: center; }
+      .testimonial-text { text-align: left; }
+      .instagram-section { padding: 28px 16px; }
+      footer {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 18px 16px;
+        gap: 14px;
+        margin-top: 14px;
+      }
+      .footer-tagline { max-width: 100%; }
+      .footer-links { justify-content: flex-start; gap: 14px; }
+      .footer-bottom { padding: 10px 16px; flex-direction: column; gap: 3px; }
+    }
+  </style>
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <!-- NAV DRAWER -->
+  <div class="nav-backdrop" id="nav-backdrop"></div>
+  <nav class="nav-drawer" id="nav-drawer" aria-label="Site navigation" aria-hidden="true">
+    <div class="drawer-header">
+      <span class="drawer-title">Menu</span>
+      <button class="drawer-close" id="drawer-close" aria-label="Close menu">&#x2715;</button>
+    </div>
+    <div class="drawer-section-label">Products</div>
+    <div id="drawer-links"></div>
+    <div class="drawer-divider"></div>
+    <a class="drawer-link drawer-link-top" href="#">About</a>
+  </nav>
+
+  <!-- SITE HEADER -->
+  <header class="site-header">
+    <button class="hamburger-btn" id="hamburger-btn" aria-label="Open menu" aria-expanded="false" aria-controls="nav-drawer">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <a class="header-ig-link" href="https://www.instagram.com/afrand.ceramics/" target="_blank" rel="noopener" aria-label="Follow on Instagram">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.5" cy="6.5" r="0.8" fill="currentColor" stroke="none"/></svg>
+      @afrand.ceramics
+    </a>
+  </header>
+
+  <main id="main-content">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <img src="afrand_banner.webp" alt="Afrand Ceramics — Handmade in Austin, Texas">
+    </div>
+  </section>
+
+  <div class="page-content">
+
+    <!-- Dynamic product sections rendered from products.json -->
+    <div id="product-sections">
+      <div class="products-loading">Loading inventory...</div>
+    </div>
+
+    <!-- ── TESTIMONIALS ── -->
+    <section class="testimonials-section" id="reviews" data-nav="Reviews">
+      <div class="testimonials-header">
+        <span class="category-name">What Customers Say</span>
+      </div>
+      <div class="testimonials-grid">
+
+        <div class="testimonial-card">
+          <img class="testimonial-avatar zoomable"
+            src="https://i.etsystatic.com/50927483/c/2008/2008/139/570/il/d68d68/7426261770/il_680x540.7426261770_7p3y.jpg"
+            alt="Raku Glaze Cup — Penny's purchase">
+          <div class="testimonial-content">
+            <div class="testimonial-byline">Penny <span class="testimonial-meta">— Jan 2026 — <span class="testimonial-stars" aria-label="5 stars">★★★★★</span></span></div>
+            <p class="testimonial-text">"Wow! It's beautiful!! So unique and the colors are gorgeous. The photos of the cup match the product perfectly. Shipping — Amazon fast! Packaged like a Fabergé egg! No detail was overlooked. Extremely happy with my cup! If you're looking for a thing of beauty that's truly handmade this is it! Definitely 10 star worthy on all levels 🤩"</p>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <img class="testimonial-avatar zoomable"
+            src="https://i.etsystatic.com/50927483/r/il/4c912d/7626771491/il_680x540.7626771491_tdn8.jpg"
+            alt="Piece reviewed by Payton">
+          <div class="testimonial-content">
+            <div class="testimonial-byline">Payton <span class="testimonial-meta">— Feb 2026 — <span class="testimonial-stars" aria-label="5 stars">★★★★★</span></span></div>
+            <p class="testimonial-text">"Stunning! This piece elevates any snack plate. Can't wait to use it again!"</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── INSTAGRAM & CUSTOM ORDERS ── -->
+    <section class="instagram-section" aria-label="Follow on Instagram">
+      <div class="instagram-label">Follow Along</div>
+      <a href="https://instagram.com/afrand.ceramics" target="_blank" rel="noopener" class="instagram-handle-link">
+        <svg class="instagram-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke-width="3"/>
+        </svg>
+        @afrand.ceramics
+      </a>
+      <p class="custom-cta">Interested in a custom piece or collaboration? Send a DM.</p>
+    </section>
+
+    <!-- TRUST STRIP -->
+    <div class="text-strip">
+      <p>Handmade in Austin, Texas</p>
+      <span aria-hidden="true">·</span>
+      <p>Food-safe glazes</p>
+      <span aria-hidden="true">·</span>
+      <p>Ships in 3–5 business days</p>
+      <span aria-hidden="true">·</span>
+      <p>Custom orders welcome</p>
+    </div>
+
+  </div><!-- /page-content -->
+
+  </main><!-- /main-content -->
+
+  <!-- FOOTER -->
+  <footer>
+    <p class="footer-tagline">Each piece is individually hand-thrown on the wheel and fired twice (bisque, then glaze) to achieve a food-safe, durable finish unique to each work.</p>
+    <nav class="footer-links" aria-label="Footer navigation">
+      <a>Shipping &amp; Returns</a>
+      <a>Care Instructions</a>
+      <a>Custom Orders</a>
+      <a>Contact</a>
+      <a href="https://instagram.com/afrand.ceramics" target="_blank" rel="noopener">Instagram</a>
+    </nav>
+  </footer>
+
+  <div class="footer-bottom">
+    <span>© 2026 Afrand Ceramics. All rights reserved.</span>
+    <span>The term 'Etsy' is a trademark of Etsy, Inc. This site uses the Etsy API but is not endorsed or certified by Etsy.</span>
+    <span>Austin, Texas</span>
+  </div>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" aria-hidden="true">
+    <button id="lightbox-close" aria-label="Close">&#x2715;</button>
+    <img id="lightbox-img" src="" alt="">
+  </div>
+
+  <script>
+    // ── HAMBURGER NAV ──
+    (function () {
+      var btn     = document.getElementById('hamburger-btn');
+      var drawer  = document.getElementById('nav-drawer');
+      var backdrop = document.getElementById('nav-backdrop');
+      var closeBtnNav = document.getElementById('drawer-close');
+
+      function openDrawer() {
+        drawer.classList.add('open');
+        backdrop.classList.add('open');
+        drawer.setAttribute('aria-hidden', 'false');
+        btn.setAttribute('aria-expanded', 'true');
+        document.body.style.overflow = 'hidden';
+        closeBtnNav.focus();
+      }
+
+      function closeDrawer() {
+        drawer.classList.remove('open');
+        backdrop.classList.remove('open');
+        drawer.setAttribute('aria-hidden', 'true');
+        btn.setAttribute('aria-expanded', 'false');
+        document.body.style.overflow = '';
+        btn.focus();
+      }
+
+      btn.addEventListener('click', openDrawer);
+      closeBtnNav.addEventListener('click', closeDrawer);
+      backdrop.addEventListener('click', closeDrawer);
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && drawer.classList.contains('open')) closeDrawer();
+      });
+
+      // Rebuild nav links from [data-nav] sections (called after dynamic render)
+      window.initNavLinks = function () {
+        var container = document.getElementById('drawer-links');
+        container.innerHTML = '';
+        document.querySelectorAll('[data-nav]').forEach(function (section) {
+          var a = document.createElement('a');
+          a.className = 'drawer-link';
+          a.href = '#' + section.id;
+          a.textContent = section.getAttribute('data-nav');
+          a.addEventListener('click', function () { closeDrawer(); });
+          container.appendChild(a);
+        });
+      };
+
+      // Init nav links for any static [data-nav] sections
+      window.initNavLinks();
+    })();
+
+    // ── LIGHTBOX ──
+    (function () {
+      var lightbox = document.getElementById('lightbox');
+      var lbImg = document.getElementById('lightbox-img');
+      var closeBtnLb = document.getElementById('lightbox-close');
+      var lastFocus = null;
+
+      function openLb(src, alt, trigger) {
+        lastFocus = trigger || document.activeElement;
+        lbImg.src = src;
+        lbImg.alt = alt || '';
+        lightbox.classList.add('open');
+        lightbox.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+        closeBtnLb.focus();
+      }
+
+      function closeLb() {
+        lightbox.classList.remove('open');
+        lightbox.setAttribute('aria-hidden', 'true');
+        document.body.style.overflow = '';
+        setTimeout(function () { lbImg.src = ''; }, 350);
+        if (lastFocus) { lastFocus.focus(); lastFocus = null; }
+      }
+
+      closeBtnLb.addEventListener('click', closeLb);
+      lightbox.addEventListener('click', function (e) {
+        if (e.target === lightbox) closeLb();
+      });
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && lightbox.classList.contains('open')) closeLb();
+      });
+      lightbox.addEventListener('keydown', function (e) {
+        if (e.key === 'Tab' && lightbox.classList.contains('open')) {
+          e.preventDefault();
+          closeBtnLb.focus();
+        }
+      });
+
+      // Bind zoomable images (called after dynamic render)
+      window.initLightbox = function () {
+        document.querySelectorAll('.zoomable').forEach(function (el) {
+          if (el.dataset.lbBound) return; // avoid double-binding
+          el.dataset.lbBound = '1';
+          el.setAttribute('tabindex', '0');
+          el.setAttribute('role', 'button');
+          el.addEventListener('click', function (e) {
+            e.stopPropagation();
+            openLb(el.src, el.alt, el);
+          });
+          el.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              openLb(el.src, el.alt, el);
+            }
+          });
+        });
+      };
+
+      // Init for any static zoomable images
+      window.initLightbox();
+    })();
+
+    // ── DYNAMIC PRODUCT RENDERING ──
+    (function () {
+      var container = document.getElementById('product-sections');
+
+      function slugify(str) {
+        return str.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+      }
+
+      function formatPrice(price, currency) {
+        if (currency === 'USD') return '$' + price.toFixed(0);
+        return price.toFixed(2) + ' ' + currency;
+      }
+
+      function renderProductCard(listing, isSold) {
+        var thumb = (listing.images && listing.images[0]) ? listing.images[0].thumb : '';
+        var full = (listing.images && listing.images[0]) ? listing.images[0].full : thumb;
+        var card = document.createElement('div');
+        card.className = 'product-card' + (isSold ? ' is-sold' : '');
+
+        var html = '<div class="product-image-wrap">';
+        if (thumb) {
+          html += '<img class="zoomable" src="' + thumb + '" data-full="' + full + '" alt="' + (listing.title || '') + '" loading="lazy">';
+        }
+        html += '</div>';
+        html += '<div class="product-info">';
+        html += '<div class="product-name">' + (listing.title || '') + '</div>';
+        html += '<div class="product-maker">Afrand Ceramics</div>';
+        html += '<div class="product-price' + (isSold ? ' sold-price' : '') + '">' + formatPrice(listing.price, listing.currency) + '</div>';
+        if (!isSold && listing.etsy_url) {
+          html += '<a class="buy-link" href="' + listing.etsy_url + '" target="_blank" rel="noopener">Buy on Etsy</a>';
+        }
+        html += '</div>';
+
+        card.innerHTML = html;
+        return card;
+      }
+
+      function renderSection(name, sectionId, listings, isSold) {
+        var section = document.createElement('section');
+        var slug = slugify(name);
+
+        if (isSold) {
+          section.className = 'sold-section';
+          section.id = 'past-work';
+          section.setAttribute('data-nav', 'Past Work');
+          section.innerHTML =
+            '<div class="sold-header">' +
+            '<span class="category-name">Past Work</span>' +
+            '<span class="sold-subtitle">These pieces have found their homes — more are always being made.</span>' +
+            '</div>';
+        } else {
+          section.className = 'category-section';
+          section.id = slug;
+          section.setAttribute('data-nav', name);
+          section.innerHTML =
+            '<div class="category-header">' +
+            '<span class="category-name">' + name + '</span>' +
+            '</div>';
+        }
+
+        var grid = document.createElement('div');
+        grid.className = 'product-grid';
+        listings.forEach(function (l) {
+          grid.appendChild(renderProductCard(l, isSold));
+        });
+        section.appendChild(grid);
+        return section;
+      }
+
+      function renderProducts(data, overrides) {
+        overrides = overrides || {};
+        container.innerHTML = '';
+
+        // Build section name lookup
+        var sectionMap = {};
+        (data.sections || []).forEach(function (s) {
+          sectionMap[s.id] = s.name;
+        });
+
+        // Separate active and sold listings, applying overrides
+        var activeBySection = {};
+        var soldListings = [];
+        var sectionOrder = (data.sections || []).map(function (s) { return s.id; });
+
+        (data.listings || []).forEach(function (listing) {
+          var ov = overrides[listing.id] || {};
+          if (ov.hide) return;
+
+          var isSold = listing.state === 'sold_out' || listing.quantity === 0;
+          if (isSold) {
+            soldListings.push(listing);
+          } else {
+            var sid = listing.section_id || 'uncategorized';
+            if (!activeBySection[sid]) activeBySection[sid] = [];
+            activeBySection[sid].push(listing);
+          }
+        });
+
+        // Render active sections in order
+        sectionOrder.forEach(function (sid) {
+          var listings = activeBySection[sid];
+          if (!listings || listings.length === 0) return;
+          var name = sectionMap[sid] || 'Other';
+          container.appendChild(renderSection(name, sid, listings, false));
+        });
+
+        // Render any uncategorized active listings
+        if (activeBySection['uncategorized'] && activeBySection['uncategorized'].length > 0) {
+          container.appendChild(renderSection('Other', null, activeBySection['uncategorized'], false));
+        }
+
+        // Render sold section
+        if (soldListings.length > 0) {
+          container.appendChild(renderSection('Past Work', null, soldListings, true));
+        }
+
+        // Staleness notice
+        if (data.synced_at) {
+          var notice = document.createElement('p');
+          notice.className = 'staleness-notice';
+          notice.textContent = 'Inventory refreshes every 30 minutes. Verify availability on Etsy.';
+          container.appendChild(notice);
+        }
+
+        // Re-initialize nav links and lightbox for new elements
+        window.initNavLinks();
+        window.initLightbox();
+      }
+
+      // Fetch products.json and optional overrides.json, then render
+      Promise.all([
+        fetch('products.json').then(function (r) {
+          if (!r.ok) throw new Error('Failed to load products');
+          return r.json();
+        }),
+        fetch('overrides.json').then(function (r) {
+          return r.ok ? r.json() : {};
+        }).catch(function () { return {}; })
+      ]).then(function (results) {
+        renderProducts(results[0], results[1]);
+      }).catch(function (err) {
+        container.innerHTML = '<div class="products-error">Unable to load products. Please try again later.</div>';
+        // Still init nav for non-product sections
+        window.initNavLinks();
+      });
+    })();
+  </script>
+
+</body>
+</html>
