@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Afrand Ceramics — Coming Soon</title>
+  <meta name="description" content="Handmade ceramics from Austin, Texas. Our new website is coming soon.">
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background: #f1ede8;
+      color: #2d2318;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 640px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .banner {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 48px;
+    }
+
+    h1 {
+      font-size: 48px;
+      font-weight: 300;
+      letter-spacing: -2px;
+      margin-bottom: 12px;
+      color: #2d2318;
+    }
+
+    .tagline {
+      font-size: 16px;
+      color: #6b5c4e;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 48px;
+    }
+
+    .images {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      margin-bottom: 48px;
+    }
+
+    .images img {
+      width: 180px;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .coming-soon {
+      font-size: 20px;
+      color: #b07a55;
+      font-weight: 500;
+      margin-bottom: 16px;
+    }
+
+    .subtitle {
+      font-size: 15px;
+      color: #9e9087;
+      line-height: 1.6;
+      margin-bottom: 40px;
+    }
+
+    .etsy-link {
+      display: inline-block;
+      padding: 14px 32px;
+      border: 1.5px solid #b07a55;
+      border-radius: 6px;
+      color: #b07a55;
+      text-decoration: none;
+      font-size: 14px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      transition: background 0.2s, color 0.2s;
+    }
+
+    .etsy-link:hover {
+      background: #b07a55;
+      color: #fff;
+    }
+
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+      }
+
+      .images img {
+        width: 140px;
+        height: 180px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="afrand_banner.webp" alt="Afrand Ceramics — Handmade in Austin, Texas" class="banner">
+
+    <h1>Afrand Ceramics</h1>
+    <p class="tagline">Handmade in Austin, Texas</p>
+
+    <div class="images">
+      <img src="cup.webp" alt="Handmade ceramic cup">
+      <img src="plate.webp" alt="Handmade ceramic plate">
+    </div>
+
+    <p class="coming-soon">Our new website is coming soon</p>
+    <p class="subtitle">In the meantime, browse and shop our full collection on Etsy.</p>
+
+    <a href="https://www.etsy.com/shop/afrandceramics" class="etsy-link" target="_blank" rel="noopener">Visit Our Etsy Shop</a>
+  </div>
+</body>
+</html>
