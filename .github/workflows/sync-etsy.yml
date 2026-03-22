@@ -1,9 +1,9 @@
 name: Sync Etsy Inventory
 
 on:
-  schedule:
-    - cron: '*/30 * * * *' # Every 30 minutes
-  workflow_dispatch: {} # Manual trigger
+  # schedule:
+  #   - cron: '*/30 * * * *' # Every 30 minutes
+  workflow_dispatch: {} # Manual trigger — re-enable schedule after Etsy API approved
 
 jobs:
   sync:
