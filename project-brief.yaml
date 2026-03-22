@@ -1,0 +1,31 @@
+name: "Afrand Ceramics"
+slug: afrand_website
+type: client
+status: maintenance
+description: >
+  Personal website for a ceramics artisan who sells on Etsy. Goal: own website
+  with better branding, lower payment fees, and direct marketing — without
+  maintaining two separate backends. Key challenge: bidirectional inventory sync
+  between Etsy and the personal website (new listings appear on both, purchases
+  on either platform mark item unavailable on both). Etsy API approval has been
+  attempted but keeps failing — may need alternative approaches (scraping,
+  Pipedream polling, unofficial APIs). Currently a single static HTML page on
+  GitHub Pages with Stripe Payment Links for checkout.
+audience: "Ceramics collectors and gift shoppers looking for handmade artisan pieces"
+domains:
+  - e-commerce inventory sync across platforms
+  - Etsy API and integration alternatives
+  - Stripe payments and checkout flows
+  - lightweight storefronts without heavy backends
+  - artisan branding and product photography
+  - Pipedream automation workflows
+  - static site generation with dynamic product data
+  - shipping and fulfillment for physical goods
+keywords:
+  - Etsy, Etsy API, inventory sync, product listing
+  - Stripe, payment links, checkout, webhook
+  - Pipedream, automation, workflow, polling
+  - ceramics, pottery, artisan, handmade
+  - GitHub Pages, static site, Cloudflare
+  - Pirateship, USPS, shipping labels
+  - multi-channel e-commerce, cross-platform sync

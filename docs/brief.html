@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Afrand Ceramics — Project Overview</title>
+  <style>
+    :root {
+      --pampas: #f1ede8;
+      --wood:   #f4f0e9;
+      --ebb:    #efeaea;
+      --clay:   #b07a55;
+      --text:   #2d2318;
+      --muted:  #6b5c4e;
+      --faint:  #9e9087;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 13px;
+      line-height: 1.5;
+      color: var(--text);
+      background: linear-gradient(180deg, #f7f3ee 0%, #faf9f6 30%, #f5f0eb 70%, #ede8e2 100%);
+      min-height: 100vh;
+      padding: 40px 48px 60px;
+      max-width: 940px;
+      margin: 0 auto;
+    }
+
+    /* -- HEADER -- */
+    .doc-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: linear-gradient(90deg, var(--pampas) 0%, var(--wood) 40%, var(--wood) 60%, var(--pampas) 100%);
+      border-radius: 10px;
+      padding: 18px 24px;
+      margin-bottom: 20px;
+      box-shadow:
+        inset 0 1px 0 rgba(255,255,255,0.7),
+        0 1px 6px rgba(0,0,0,0.07);
+      border: 1px solid rgba(0,0,0,0.07);
+    }
+    .doc-title { font-size: 17px; font-weight: 600; letter-spacing: -0.3px; color: var(--text); }
+    .doc-subtitle { font-size: 12px; color: var(--muted); margin-top: 2px; }
+    .doc-meta { font-size: 11px; color: var(--faint); }
+
+    /* -- CARD BLOCK -- */
+    .block {
+      background: linear-gradient(180deg, #ffffff 0%, #fdfcfa 100%);
+      border-radius: 10px;
+      padding: 20px 24px;
+      margin-bottom: 14px;
+      box-shadow:
+        0 1px 3px rgba(0,0,0,0.07),
+        0 4px 14px rgba(0,0,0,0.05);
+    }
+    .block-title {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--clay);
+      border-bottom: 1px solid rgba(176,122,85,0.18);
+      padding-bottom: 8px;
+      margin-bottom: 14px;
+    }
+
+    /* -- PARAGRAPH TEXT -- */
+    .intro-text {
+      color: var(--muted);
+      line-height: 1.65;
+      font-size: 13px;
+    }
+    .intro-text strong { color: var(--text); }
+
+    /* -- ARCHITECTURE DIAGRAM -- */
+    .arch-diagram {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0;
+      padding: 20px 10px;
+      margin-bottom: 14px;
+      flex-wrap: wrap;
+    }
+    .arch-box {
+      background: linear-gradient(135deg, rgba(241,237,232,0.7) 0%, rgba(244,240,233,0.7) 100%);
+      border: 1.5px solid rgba(176,122,85,0.3);
+      border-radius: 8px;
+      padding: 10px 16px;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text);
+      text-align: center;
+      white-space: nowrap;
+    }
+    .arch-box.highlight {
+      background: linear-gradient(135deg, var(--clay) 0%, #c08a62 100%);
+      color: #fff;
+      border-color: var(--clay);
+    }
+    .arch-arrow {
+      font-size: 16px;
+      color: var(--clay);
+      padding: 0 8px;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    /* -- TABLES -- */
+    table { width: 100%; border-collapse: collapse; }
+    th {
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: var(--faint);
+      text-align: left;
+      border-bottom: 1px solid rgba(0,0,0,0.09);
+      padding: 5px 10px 6px 0;
+    }
+    td {
+      padding: 8px 10px 8px 0;
+      border-bottom: 1px solid rgba(0,0,0,0.05);
+      vertical-align: top;
+      color: var(--muted);
+      font-size: 12.5px;
+      line-height: 1.5;
+    }
+    td:first-child { font-weight: 500; color: var(--text); white-space: nowrap; }
+    tr:last-child td { border-bottom: none; }
+    .yes { color: #4a8c5c; font-weight: 600; }
+
+    /* -- COMPARISON TABLE HIGHLIGHT -- */
+    .comparison-table td:nth-child(2) { color: var(--text); font-weight: 500; }
+
+    /* -- NOTE CALLOUT -- */
+    .note {
+      background: var(--ebb);
+      border-left: 3px solid var(--clay);
+      border-radius: 0 6px 6px 0;
+      padding: 9px 14px;
+      font-size: 12px;
+      color: var(--muted);
+      margin-top: 12px;
+      line-height: 1.55;
+    }
+    .note strong { color: var(--text); }
+    .note + .note { margin-top: 8px; }
+
+    /* -- CHECKLIST -- */
+    .checklist { list-style: none; }
+    .checklist li {
+      display: flex;
+      gap: 10px;
+      padding: 10px 0;
+      border-bottom: 1px solid rgba(0,0,0,0.05);
+      align-items: flex-start;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+    .checklist li:last-child { border-bottom: none; }
+    .check-box {
+      width: 18px;
+      height: 18px;
+      border: 2px solid rgba(176,122,85,0.4);
+      border-radius: 4px;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+    .checklist li strong { color: var(--text); }
+    .checklist .hint {
+      font-size: 11px;
+      color: var(--faint);
+      display: block;
+      margin-top: 2px;
+    }
+
+    /* -- NUMBERED STEPS (for API section) -- */
+    .steps { list-style: none; counter-reset: s; }
+    .steps li {
+      counter-increment: s;
+      display: flex;
+      gap: 10px;
+      padding: 6px 0;
+      border-bottom: 1px solid rgba(0,0,0,0.05);
+      align-items: flex-start;
+    }
+    .steps li:last-child { border-bottom: none; }
+    .steps li::before {
+      content: counter(s);
+      background: var(--clay);
+      color: #fff;
+      font-size: 10px;
+      font-weight: 700;
+      min-width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .steps li span { color: var(--muted); line-height: 1.55; }
+    .steps li span strong { color: var(--text); }
+
+    /* -- OPEN DECISIONS -- */
+    .decisions { list-style: none; counter-reset: d; }
+    .decisions li {
+      counter-increment: d;
+      padding: 10px 0;
+      border-bottom: 1px solid rgba(0,0,0,0.05);
+      color: var(--muted);
+      line-height: 1.6;
+    }
+    .decisions li:last-child { border-bottom: none; }
+    .decisions li strong { color: var(--text); }
+    .decisions li::before {
+      content: counter(d) ".";
+      font-weight: 700;
+      color: var(--clay);
+      margin-right: 6px;
+    }
+
+    /* -- STATUS PILLS -- */
+    .status-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .status-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      background: linear-gradient(135deg, rgba(241,237,232,0.55) 0%, rgba(244,240,233,0.55) 100%);
+      border-radius: 8px;
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .status-dot.done { background: #4a8c5c; }
+    .status-dot.ready { background: var(--clay); }
+
+    /* -- FOOTER -- */
+    .footer {
+      text-align: center;
+      color: var(--faint);
+      font-size: 11px;
+      padding-top: 20px;
+      line-height: 1.6;
+    }
+
+    /* -- PRINT -- */
+    @media print {
+      body { padding: 24px 32px; background: #fff; }
+      .block { box-shadow: none; border: 1px solid #ddd; }
+      .doc-header { box-shadow: none; border: 1px solid #ddd; background: #f5f0eb; }
+    }
+
+    /* -- MOBILE -- */
+    @media (max-width: 640px) {
+      body { padding: 20px 16px 40px; }
+      .doc-header { flex-direction: column; align-items: flex-start; gap: 4px; }
+      .arch-diagram { gap: 4px; }
+      .arch-box { padding: 8px 10px; font-size: 11px; }
+      .arch-arrow { padding: 0 4px; font-size: 14px; }
+      .status-grid { grid-template-columns: 1fr; }
+      td:first-child { white-space: normal; }
+      table { font-size: 12px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="doc-header">
+    <div>
+      <div class="doc-title">Afrand Ceramics — Project Overview</div>
+      <div class="doc-subtitle">Everything you need to know about your new website</div>
+    </div>
+    <div class="doc-meta">March 2026</div>
+  </div>
+
+  <!-- 1. WHAT WE'RE BUILDING & WHY -->
+  <div class="block">
+    <div class="block-title">1. What We're Building & Why</div>
+
+    <div class="arch-diagram">
+      <div class="arch-box">Etsy Shop</div>
+      <div class="arch-arrow">&larr;&rarr;</div>
+      <div class="arch-box">Etsy API</div>
+      <div class="arch-arrow">&larr;&rarr;</div>
+      <div class="arch-box highlight">Your Website</div>
+      <div class="arch-arrow">&larr;&rarr;</div>
+      <div class="arch-box">Stripe</div>
+    </div>
+
+    <p class="intro-text">You keep selling on Etsy as usual. Your personal website automatically shows all the same products. When something sells on either platform, inventory updates everywhere. You also get to <strong>collect customer emails</strong> and <strong>build your own brand</strong> — something Etsy doesn't let you do today.</p>
+  </div>
+
+  <!-- 2. HOW THE PIECES FIT TOGETHER -->
+  <div class="block">
+    <div class="block-title">2. How the Pieces Fit Together</div>
+    <table class="comparison-table">
+      <thead>
+        <tr>
+          <th>Dimension</th>
+          <th>With API + Own Site</th>
+          <th>Etsy Only</th>
+          <th>Manual / Separate</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Inventory</td>
+          <td>Auto-sync both ways &mdash; sell on one, updates both</td>
+          <td>Single source, simple but limited</td>
+          <td>You update both manually, risk overselling</td>
+        </tr>
+        <tr>
+          <td>Checkout</td>
+          <td>Etsy checkout + Stripe on website (2 revenue channels)</td>
+          <td>Etsy only (~10-12% in fees per sale)</td>
+          <td>Same two channels but inventory can get out of sync</td>
+        </tr>
+        <tr>
+          <td>Shipping</td>
+          <td>Pirateship / manual &mdash; same either way</td>
+          <td>Same</td>
+          <td>Same</td>
+        </tr>
+        <tr>
+          <td>Marketing</td>
+          <td>Two storefronts = two ways customers find you, same products</td>
+          <td>Only Etsy search + Etsy ads</td>
+          <td>Two stores but split / duplicated inventory headache</td>
+        </tr>
+        <tr>
+          <td>Customer Retention</td>
+          <td>Own website = collect emails, build your brand, direct relationship</td>
+          <td>Etsy owns the customer &mdash; you can't contact them directly</td>
+          <td>Same potential but harder to maintain consistently</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 3. WHY NOT SHOPIFY / SQUARESPACE / WOOCOMMERCE -->
+  <div class="block">
+    <div class="block-title">3. Why Not Shopify / Squarespace / WooCommerce?</div>
+    <p class="intro-text" style="margin-bottom: 14px;">We looked at these alternatives carefully. Here's what we found:</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Approach</th>
+          <th>Monthly Cost</th>
+          <th>What You Get</th>
+          <th>What You Lose</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Our approach</strong></td>
+          <td>$0-12/mo</td>
+          <td>Full control, your brand, lowest fees</td>
+          <td>Needs a developer friend to set up</td>
+        </tr>
+        <tr>
+          <td>Shopify + Etsy sync</td>
+          <td>$38-58/mo</td>
+          <td>Easy to use, built-in features</td>
+          <td>Monthly cost adds up, still Shopify's platform</td>
+        </tr>
+        <tr>
+          <td>Squarespace + Etsy sync</td>
+          <td>$58-62/mo</td>
+          <td>Beautiful templates</td>
+          <td>Most expensive, sync plugin costs extra</td>
+        </tr>
+        <tr>
+          <td>WooCommerce + Etsy sync</td>
+          <td>$31-46/mo</td>
+          <td>Flexible, WordPress-based</td>
+          <td>Most technical, needs hosting + maintenance</td>
+        </tr>
+        <tr>
+          <td>Etsy only (status quo)</td>
+          <td>~10-12% per sale</td>
+          <td>Zero effort, what you have now</td>
+          <td>No brand, no email list, Etsy controls everything</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="note">Our approach works great while you have developer help. If that ever changes, <strong>Shopify ($38/mo)</strong> is the easiest self-service option to migrate to.</div>
+    <div class="note">These prices were researched in March 2026. Platforms change pricing &mdash; your Claude Code can help verify current rates.</div>
+  </div>
+
+  <!-- 4. WHAT HAPPENED WITH THE API APPLICATION -->
+  <div class="block">
+    <div class="block-title">4. What Happened With the API Application</div>
+    <ol class="steps">
+      <li><span>We applied for access to Etsy's developer tools (their API) so your website can talk to your Etsy shop.</span></li>
+      <li><span>The first application was declined because we accidentally submitted it without filling in the description &mdash; <strong>oops!</strong></span></li>
+      <li><span>We've researched what Etsy looks for and <strong>prepared a much stronger application</strong>.</span></li>
+      <li><span>The new description explains exactly what we're building, that you own the shop, and that this is for personal use.</span></li>
+      <li><span>We expect <strong>approval in about 20 days</strong>.</span></li>
+    </ol>
+  </div>
+
+  <!-- 5. WHAT YOU NEED TO DO -->
+  <div class="block">
+    <div class="block-title">5. What You Need To Do</div>
+    <ul class="checklist">
+      <li>
+        <div class="check-box"></div>
+        <div>
+          <strong>Create a GitHub account</strong>
+          <span class="hint">This is where our shared project lives. Think of it as a shared folder for the website code. (Free, takes 5 minutes)</span>
+        </div>
+      </li>
+      <li>
+        <div class="check-box"></div>
+        <div>
+          <strong>Accept the collaborator invite</strong>
+          <span class="hint">Once you have an account, you'll get an email invite to join the project.</span>
+        </div>
+      </li>
+      <li>
+        <div class="check-box"></div>
+        <div>
+          <strong>Review this brief</strong>
+          <span class="hint">You're doing this right now!</span>
+        </div>
+      </li>
+      <li>
+        <div class="check-box"></div>
+        <div>
+          <strong>Submit the Etsy API application</strong>
+          <span class="hint">We've prepared the exact text to copy-paste. See the separate guide (<code style="background:rgba(176,122,85,0.1);padding:1px 5px;border-radius:3px;font-size:11px;">etsy-api-application.md</code>)</span>
+        </div>
+      </li>
+      <li>
+        <div class="check-box"></div>
+        <div>
+          <strong>Wait for approval</strong>
+          <span class="hint">About 20 days. We'll continue setting up other pieces while we wait.</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- 6. OPEN DECISIONS -->
+  <div class="block">
+    <div class="block-title">6. Open Decisions (Your Input Needed)</div>
+    <ol class="decisions">
+      <li><strong>Domain name</strong> &mdash; Should we buy <code style="background:rgba(176,122,85,0.1);padding:1px 5px;border-radius:3px;font-size:11.5px;">afrandceramics.com</code> now (~$10/year)? It makes your website look professional. We can also start with a free URL and upgrade later.</li>
+      <li><strong>Hosting choice</strong> &mdash; We're choosing between Cloudflare Pages and Netlify &mdash; both are free and reliable. (Your Claude Code can help you compare them in <code style="background:rgba(176,122,85,0.1);padding:1px 5px;border-radius:3px;font-size:11.5px;">context.md</code>)</li>
+      <li><strong>Timeline</strong> &mdash; When would you like to aim for having the website live? This helps us prioritize.</li>
+    </ol>
+  </div>
+
+  <!-- 7. WHAT'S ALREADY BUILT -->
+  <div class="block">
+    <div class="block-title">7. What's Already Built</div>
+    <div class="status-grid">
+      <div class="status-item">
+        <div class="status-dot done"></div>
+        The website design (fully responsive, mobile-friendly)
+      </div>
+      <div class="status-item">
+        <div class="status-dot done"></div>
+        Product sync scripts (ready to activate once API is approved)
+      </div>
+      <div class="status-item">
+        <div class="status-dot ready"></div>
+        Automated updates (GitHub Actions will sync products every 30 minutes)
+      </div>
+      <div class="status-item">
+        <div class="status-dot ready"></div>
+        Payment integration ready (Stripe Payment Links &mdash; you'll set these up)
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    Questions? Open <code style="background:rgba(176,122,85,0.1);padding:1px 5px;border-radius:3px;font-size:10.5px;">docs/context.md</code> with your Claude Code for detailed answers.<br>
+    Built with care by your developer friend, March 2026
+  </div>
+
+</body>
+</html>

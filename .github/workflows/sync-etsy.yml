@@ -1,0 +1,39 @@
+name: Sync Etsy Inventory
+
+on:
+  schedule:
+    - cron: '*/30 * * * *' # Every 30 minutes
+  workflow_dispatch: {} # Manual trigger
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run Etsy sync
+        id: sync
+        env:
+          ETSY_API_KEY: ${{ secrets.ETSY_API_KEY }}
+          ETSY_REFRESH_TOKEN: ${{ secrets.ETSY_REFRESH_TOKEN }}
+          ETSY_SHOP_ID: ${{ secrets.ETSY_SHOP_ID }}
+        run: node sync/index.js
+
+      - name: Update refresh token if rotated
+        if: steps.sync.outputs.new_refresh_token
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+          NEW_TOKEN: ${{ steps.sync.outputs.new_refresh_token }}
+        run: gh secret set ETSY_REFRESH_TOKEN --body "$NEW_TOKEN"
+
+      - name: Commit and push products.json
+        run: |
+          git config user.name "Etsy Sync Bot"
+          git config user.email "bot@afrandceramics.com"
+          git add products.json
+          git diff --cached --quiet || git commit -m "sync: update inventory from Etsy"
+          git push
