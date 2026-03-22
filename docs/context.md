@@ -36,7 +36,7 @@ Afrand Ceramics is a handmade ceramics shop currently selling on Etsy (afrandcer
 
 ### Key Components
 
-1. **Website** (`afrand.html`): Single-file static site (1,165 lines, ~37KB). All CSS is inline. Loads `products.json` on page load, renders product grid dynamically using vanilla JS. Product cards are grouped by Etsy shop sections (Cups, Planters, Bowls, Vases, Platters, Haft Seen) with a "Past Work" section for sold-out items. Includes a lightbox for image zoom and responsive nav. Hosted on Cloudflare Pages (or Netlify) — **not GitHub Pages** (GitHub Pages explicitly prohibits e-commerce).
+1. **Website** (`index.html`, renamed from `afrand.html`): Single-file static site (1,165 lines, ~37KB). All CSS is inline. Loads `products.json` on page load, renders product grid dynamically using vanilla JS. Product cards are grouped by Etsy shop sections (Cups, Planters, Bowls, Vases, Platters, Haft Seen) with a "Past Work" section for sold-out items. Includes a lightbox for image zoom and responsive nav. Hosted on Cloudflare Pages (or Netlify) — **not GitHub Pages** (GitHub Pages explicitly prohibits e-commerce).
 
 2. **Sync Scripts** (`sync/` directory):
    - `etsy-client.js` — OAuth 2.0 client with automatic token refresh. Zero npm dependencies (uses Node built-in fetch). Handles pagination for shops with many listings. Etsy refresh tokens are single-use, so the client tracks the new refresh token after each rotation.
@@ -288,7 +288,7 @@ The `.env` file contains an `ETSY_API_KEY` (keystring) and `ETSY_SHARED_SECRET`.
 
 ```
 afrand_website/
-├── afrand.html                (the website — single-file static site, 1165 lines)
+├── index.html                 (the website — renamed from afrand.html, 1165 lines)
 ├── products.json              (product data — synced from Etsy API)
 ├── overrides.json             (manual product customizations, currently empty)
 ├── package.json               (only dependency: puppeteer for screenshots)
@@ -326,7 +326,7 @@ The website uses these CSS custom properties:
 - Clay accent: `#b07a55`
 - Text: `#2d2318`, muted: `#6b5c4e`, faint: `#9e9087`
 - Product grids: 4-col at desktop, 2-col at 1024px, 1-col at 600px
-- Full custom property system defined at the top of `afrand.html` (spacing, typography, colors)
+- Full custom property system defined at the top of `index.html` (spacing, typography, colors)
 
 ## Environment Variables
 
