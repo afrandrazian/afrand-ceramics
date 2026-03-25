@@ -1,239 +1,2126 @@
 {
-  "synced_at": "2026-02-27T10:00:00Z",
-  "shop_id": "AfrandCeramics",
+  "synced_at": "2026-03-25T04:08:42.311Z",
+  "shop_id": "50927483",
   "sections": [
-    { "id": 56360734, "name": "Cups", "sort_order": 1 },
-    { "id": 56359847, "name": "Planters", "sort_order": 2 },
-    { "id": 57144351, "name": "Bowls", "sort_order": 3 },
-    { "id": 56431823, "name": "Vases", "sort_order": 4 },
-    { "id": 56908347, "name": "Platters", "sort_order": 5 },
-    { "id": 56893276, "name": "Haft Seen", "sort_order": 6 }
+    {
+      "id": 56359847,
+      "name": "Planters",
+      "sort_order": 1
+    },
+    {
+      "id": 56360734,
+      "name": "Cups",
+      "sort_order": 2
+    },
+    {
+      "id": 56431823,
+      "name": "Vase",
+      "sort_order": 3
+    },
+    {
+      "id": 56908347,
+      "name": "Platter",
+      "sort_order": 4
+    },
+    {
+      "id": 56893276,
+      "name": "Haft Seen",
+      "sort_order": 5
+    },
+    {
+      "id": 57144351,
+      "name": "Bowl",
+      "sort_order": 6
+    }
   ],
   "listings": [
     {
-      "id": 1001,
-      "title": "Brushstroke Tumbler",
-      "description": "",
-      "price": 48,
-      "currency": "USD",
-      "state": "active",
-      "quantity": 1,
-      "section_id": 56360734,
-      "etsy_url": "https://www.etsy.com/listing/1001",
-      "images": [{ "full": "cup.webp", "thumb": "cup.webp" }],
-      "tags": [],
-      "created_at": "2026-01-15",
-      "updated_at": "2026-02-20"
-    },
-    {
-      "id": 1002,
-      "title": "Blue Crystal Tumbler",
-      "description": "",
-      "price": 55,
-      "currency": "USD",
-      "state": "active",
-      "quantity": 1,
-      "section_id": 56360734,
-      "etsy_url": "https://www.etsy.com/listing/1002",
-      "images": [{ "full": "https://i.etsystatic.com/50927483/c/1717/1717/314/729/il/9f5c63/7483740171/il_600x600.7483740171_crey.jpg", "thumb": "https://i.etsystatic.com/50927483/c/1717/1717/314/729/il/9f5c63/7483740171/il_600x600.7483740171_crey.jpg" }],
-      "tags": [],
-      "created_at": "2026-01-16",
-      "updated_at": "2026-02-20"
-    },
-    {
-      "id": 1003,
-      "title": "Raku Glaze Cup",
-      "description": "",
-      "price": 62,
-      "currency": "USD",
-      "state": "active",
-      "quantity": 1,
-      "section_id": 56360734,
-      "etsy_url": "https://www.etsy.com/listing/1003",
-      "images": [{ "full": "https://i.etsystatic.com/50927483/c/2008/2008/139/570/il/d68d68/7426261770/il_680x540.7426261770_7p3y.jpg", "thumb": "https://i.etsystatic.com/50927483/c/2008/2008/139/570/il/d68d68/7426261770/il_680x540.7426261770_7p3y.jpg" }],
-      "tags": [],
-      "created_at": "2026-01-17",
-      "updated_at": "2026-02-20"
-    },
-    {
-      "id": 1004,
-      "title": "Mountain Etched Tumbler",
-      "description": "",
-      "price": 52,
-      "currency": "USD",
-      "state": "active",
-      "quantity": 1,
-      "section_id": 56360734,
-      "etsy_url": "https://www.etsy.com/listing/1004",
-      "images": [{ "full": "https://i.etsystatic.com/50927483/r/il/e37c27/7471041916/il_680x540.7471041916_6t86.jpg", "thumb": "https://i.etsystatic.com/50927483/r/il/e37c27/7471041916/il_680x540.7471041916_6t86.jpg" }],
-      "tags": [],
-      "created_at": "2026-01-18",
-      "updated_at": "2026-02-20"
-    },
-    {
-      "id": 1005,
-      "title": "Pomegranate Cup",
-      "description": "",
-      "price": 55,
-      "currency": "USD",
-      "state": "active",
-      "quantity": 1,
-      "section_id": 56360734,
-      "etsy_url": "https://www.etsy.com/listing/1005",
-      "images": [{ "full": "https://i.etsystatic.com/50927483/r/il/3d318e/7640932096/il_600x600.7640932096_nzho.jpg", "thumb": "https://i.etsystatic.com/50927483/r/il/3d318e/7640932096/il_600x600.7640932096_nzho.jpg" }],
-      "tags": [],
-      "created_at": "2026-01-19",
-      "updated_at": "2026-02-20"
-    },
-    {
-      "id": 2001,
-      "title": "Patchwork Glaze Planter",
-      "description": "",
-      "price": 65,
+      "id": 4408499819,
+      "title": "Modern Ceramic Planter",
+      "description": "Perfect for ferns, pothos, succulents, herbs, or any small houseplant, this planter works beautifully in minimalist, earthy, or boho-inspired spaces. It also makes a thoughtful gift for plant lovers, new homeowners, or anyone who appreciates handmade pottery.\n\nDimensions: \nHeight: 3 in\nWidth: 4 in",
+      "price": 30,
       "currency": "USD",
       "state": "active",
       "quantity": 1,
       "section_id": 56359847,
-      "etsy_url": "https://www.etsy.com/listing/2001",
-      "images": [{ "full": "https://i.etsystatic.com/50927483/r/il/5f21c3/7522714405/il_600x600.7522714405_1k7q.jpg", "thumb": "https://i.etsystatic.com/50927483/r/il/5f21c3/7522714405/il_600x600.7522714405_1k7q.jpg" }],
-      "tags": [],
-      "created_at": "2026-01-20",
-      "updated_at": "2026-02-20"
+      "etsy_url": "https://www.etsy.com/listing/4408499819/modern-ceramic-planter",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/40ce23/7466627765/il_fullxfull.7466627765_avpk.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/40ce23/7466627765/il_570xN.7466627765_avpk.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/14bb0b/7418662700/il_fullxfull.7418662700_3o17.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/14bb0b/7418662700/il_570xN.7418662700_3o17.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/8318a8/7466581915/il_fullxfull.7466581915_6h6m.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/8318a8/7466581915/il_570xN.7466581915_6h6m.jpg"
+        }
+      ],
+      "tags": [
+        "Planter",
+        "Plant Pot",
+        "Modern Planter",
+        "cactus planter",
+        "indoor planter",
+        "desk planter",
+        "small planter",
+        "ceramic planter",
+        "handmade planter",
+        "tabletop planter",
+        "Planter Pot",
+        "unique planter"
+      ],
+      "created_at": "2025-11-20",
+      "updated_at": "2026-03-22"
     },
     {
-      "id": 2002,
-      "title": "Landscape Planter",
-      "description": "",
-      "price": 72,
-      "currency": "USD",
-      "state": "active",
-      "quantity": 1,
-      "section_id": 56359847,
-      "etsy_url": "https://www.etsy.com/listing/2002",
-      "images": [{ "full": "https://i.etsystatic.com/50927483/r/il/0fefff/7465326057/il_600x600.7465326057_hp6e.jpg", "thumb": "https://i.etsystatic.com/50927483/r/il/0fefff/7465326057/il_600x600.7465326057_hp6e.jpg" }],
-      "tags": [],
-      "created_at": "2026-01-21",
-      "updated_at": "2026-02-20"
-    },
-    {
-      "id": 2003,
-      "title": "Blue Speckle Planter",
-      "description": "",
-      "price": 48,
-      "currency": "USD",
-      "state": "active",
-      "quantity": 1,
-      "section_id": 56359847,
-      "etsy_url": "https://www.etsy.com/listing/2003",
-      "images": [{ "full": "https://i.etsystatic.com/50927483/r/il/62f5b9/7474732290/il_600x600.7474732290_ltmp.jpg", "thumb": "https://i.etsystatic.com/50927483/r/il/62f5b9/7474732290/il_600x600.7474732290_ltmp.jpg" }],
-      "tags": [],
-      "created_at": "2026-01-22",
-      "updated_at": "2026-02-20"
-    },
-    {
-      "id": 2004,
-      "title": "Sage Glaze Planter",
-      "description": "",
-      "price": 68,
-      "currency": "USD",
-      "state": "active",
-      "quantity": 1,
-      "section_id": 56359847,
-      "etsy_url": "https://www.etsy.com/listing/2004",
-      "images": [{ "full": "https://i.etsystatic.com/50927483/c/2250/2250/0/169/il/47d16b/7522954287/il_600x600.7522954287_mbck.jpg", "thumb": "https://i.etsystatic.com/50927483/c/2250/2250/0/169/il/47d16b/7522954287/il_600x600.7522954287_mbck.jpg" }],
-      "tags": [],
-      "created_at": "2026-01-23",
-      "updated_at": "2026-02-20"
-    },
-    {
-      "id": 3001,
-      "title": "Stoneware Bowl",
-      "description": "",
-      "price": 58,
-      "currency": "USD",
-      "state": "active",
-      "quantity": 1,
-      "section_id": 57144351,
-      "etsy_url": "https://www.etsy.com/listing/3001",
-      "images": [{ "full": "https://i.etsystatic.com/50927483/r/il/0439af/7689144925/il_600x600.7689144925_q388.jpg", "thumb": "https://i.etsystatic.com/50927483/r/il/0439af/7689144925/il_600x600.7689144925_q388.jpg" }],
-      "tags": [],
-      "created_at": "2026-01-24",
-      "updated_at": "2026-02-20"
-    },
-    {
-      "id": 4001,
-      "title": "Bud Vase",
-      "description": "",
-      "price": 45,
-      "currency": "USD",
-      "state": "active",
-      "quantity": 1,
-      "section_id": 56431823,
-      "etsy_url": "https://www.etsy.com/listing/4001",
-      "images": [{ "full": "https://i.etsystatic.com/50927483/r/il/741de4/7447025700/il_600x600.7447025700_8ljb.jpg", "thumb": "https://i.etsystatic.com/50927483/r/il/741de4/7447025700/il_600x600.7447025700_8ljb.jpg" }],
-      "tags": [],
-      "created_at": "2026-01-25",
-      "updated_at": "2026-02-20"
-    },
-    {
-      "id": 5001,
-      "title": "Leopard Trinket Dish",
-      "description": "",
-      "price": 72,
-      "currency": "USD",
-      "state": "active",
-      "quantity": 1,
-      "section_id": 56908347,
-      "etsy_url": "https://www.etsy.com/listing/5001",
-      "images": [{ "full": "plate.webp", "thumb": "plate.webp" }],
-      "tags": [],
-      "created_at": "2026-01-26",
-      "updated_at": "2026-02-20"
-    },
-    {
-      "id": 6001,
-      "title": "Nowruz Plate Set",
-      "description": "",
-      "price": 185,
+      "id": 4467603045,
+      "title": "Handmade Persian Haft Seen Set | Minimal Ceramic Nowruz Tableware | Modern white Haftsin Sets",
+      "description": "A set of five plates/bowl made for the Nowruz haft seen table. Each piece is wheel-thrown and finished in a white glaze -  simple, earthy, and made to hold the symbols of the new year.\n\nDesigned to honor tradition while fitting seamlessly into contemporary homes, these pieces are perfect for displaying the seven symbolic items of Haft-Seen during Nowruz, and can be enjoyed year-round as serving bowls or decorative dishes.\n\nEach piece is carefully handmade, making every set subtly unique.\nDetails\n• Handmade stoneware ceramics\n• Glazed interior is food safe\n• Exterior features raw clay texture for a natural, earthy contrast\n• Neutral glaze complements any table setting\n• Minimal, modern aesthetic with Persian cultural roots\n• Each set is one of a kind\n\nSet Includes\n• Matching 4 plates and 1 bowl \n• Coordinated forms designed specifically for a Haft-Seen table\n• Listing is for one complete Haft-Seen set (as shown)\n\nDimensions: \nPlates: approx. 1in x 5in (H x W)\nBowl: approx. 1.5in x 3.5in (H x W)",
+      "price": 100,
       "currency": "USD",
       "state": "active",
       "quantity": 1,
       "section_id": 56893276,
-      "etsy_url": "https://www.etsy.com/listing/6001",
-      "images": [{ "full": "https://i.etsystatic.com/50927483/c/2250/1788/0/769/il/566ba0/5878388479/il_600x600.5878388479_lazb.jpg", "thumb": "https://i.etsystatic.com/50927483/c/2250/1788/0/769/il/566ba0/5878388479/il_600x600.5878388479_lazb.jpg" }],
-      "tags": ["haft seen", "ceramic"],
-      "created_at": "2026-01-27",
-      "updated_at": "2026-02-20"
+      "etsy_url": "https://www.etsy.com/listing/4467603045/handmade-persian-haft-seen-set-minimal",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/4cd77d/7776832144/il_fullxfull.7776832144_2ugi.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/4cd77d/7776832144/il_570xN.7776832144_2ugi.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/7e466e/7776829126/il_fullxfull.7776829126_344d.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/7e466e/7776829126/il_570xN.7776829126_344d.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/325cd2/7824757491/il_fullxfull.7824757491_4tc2.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/325cd2/7824757491/il_570xN.7824757491_4tc2.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/3b584a/7824757495/il_fullxfull.7824757495_7oh3.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/3b584a/7824757495/il_570xN.7824757495_7oh3.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/284fbe/7824757493/il_fullxfull.7824757493_5q17.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/284fbe/7824757493/il_570xN.7824757493_5q17.jpg"
+        }
+      ],
+      "tags": [
+        "haftseen",
+        "Nowruz Table Set",
+        "Persian New Year",
+        "Nowruz Essentials",
+        "Haftseen Accessories",
+        "haft sin",
+        "small haftseen",
+        "modern haftseen",
+        "modern nowruz table",
+        "modern haft seen set",
+        "spring equinox decor",
+        "nowruz tableware",
+        "persian nowruz decor"
+      ],
+      "created_at": "2026-03-06",
+      "updated_at": "2026-03-06"
     },
     {
-      "id": 9001,
-      "title": "Terracotta Tumbler",
-      "description": "",
-      "price": 52,
+      "id": 4465538881,
+      "title": "Handmade Persian Haft Seen Set | Minimal Ceramic Nowruz Tableware | Modern peach Pottery Haftsin Sets",
+      "description": "A set of five small ceramic bowls made for the Nowruz haft seen table. Each bowl is wheel-thrown and finished in a speckled white glaze with a natural stoneware exterior — simple, earthy, and made to hold the symbols of the new year.\n\nDesigned to honor tradition while fitting seamlessly into contemporary homes, these pieces are perfect for displaying the seven symbolic items of Haft-Seen during Nowruz, and can be enjoyed year-round as serving bowls or decorative dishes.\n\nEach piece is carefully handmade, making every set subtly unique.\nDetails\n• Handmade stoneware ceramics\n• Glazed interior is food safe\n• Exterior features raw clay texture for a natural, earthy contrast\n• Neutral glaze complements any table setting\n• Minimal, modern aesthetic with Persian cultural roots\n• Each set is one of a kind\n\nSet Includes\n• Matching 4 plates and 1 bowl \n• Coordinated forms designed specifically for a Haft-Seen table\n• Listing is for one complete Haft-Seen set (as shown)\n\nDimensions: \n4 Plates: approx. 1.5in x 3.5in (H x W)\n1 Bowl: approx. 3in x 4.5in (H x W)",
+      "price": 100,
+      "currency": "USD",
+      "state": "active",
+      "quantity": 1,
+      "section_id": 56893276,
+      "etsy_url": "https://www.etsy.com/listing/4465538881/handmade-persian-haft-seen-set-minimal",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/94faa5/7811168759/il_fullxfull.7811168759_j9gz.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/94faa5/7811168759/il_570xN.7811168759_j9gz.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/6e0642/7763221436/il_fullxfull.7763221436_mv8k.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/6e0642/7763221436/il_570xN.7763221436_mv8k.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/04a023/7763221438/il_fullxfull.7763221438_ldme.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/04a023/7763221438/il_570xN.7763221438_ldme.jpg"
+        }
+      ],
+      "tags": [
+        "haftseen",
+        "Nowruz Table Set",
+        "Persian New Year",
+        "Nowruz Essentials",
+        "Haftseen Accessories",
+        "haft sin",
+        "small haftseen",
+        "modern haftseen",
+        "modern nowruz table",
+        "modern haft seen set",
+        "spring equinox decor",
+        "nowruz tableware",
+        "persian nowruz decor"
+      ],
+      "created_at": "2026-03-02",
+      "updated_at": "2026-03-02"
+    },
+    {
+      "id": 4465198489,
+      "title": "Handmade Persian Haft Seen Set | Minimal Ceramic Nowruz Tableware | Modern cream Haftsin Bowls",
+      "description": "A set of six small ceramic bowls made for the Nowruz haft seen table. Each bowl is wheel-thrown and finished in a speckled white glaze with a natural stoneware exterior — simple, earthy, and made to hold the symbols of the new year.\n\nDesigned to honor tradition while fitting seamlessly into contemporary homes, these pieces are perfect for displaying the seven symbolic items of Haft-Seen during Nowruz, and can be enjoyed year-round as serving bowls or decorative dishes.\n\nEach piece is carefully handmade, making every set subtly unique.\nDetails\n• Handmade stoneware ceramics\n• Glazed interior is food safe\n• Exterior features raw clay texture for a natural, earthy contrast\n• Neutral glaze complements any table setting\n• Minimal, modern aesthetic with Persian cultural roots\n• Each set is one of a kind\n\nSet Includes\n• Matching 5 deep plates and 1 bowl \n• Coordinated forms designed specifically for a Haft-Seen table\n• Listing is for one complete Haft-Seen set (as shown)\n\nDimensions: \n4 Plates: approx. 1in x 4.5in (H x W)\n1 Bowl: approx. 2in x 3.5in (H x W)",
+      "price": 100,
+      "currency": "USD",
+      "state": "active",
+      "quantity": 1,
+      "section_id": 56893276,
+      "etsy_url": "https://www.etsy.com/listing/4465198489/handmade-persian-haft-seen-set-minimal",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/d4da5d/7808718113/il_fullxfull.7808718113_mgnz.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/d4da5d/7808718113/il_570xN.7808718113_mgnz.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/77bb60/7760772194/il_fullxfull.7760772194_nego.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/77bb60/7760772194/il_570xN.7760772194_nego.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/a48e71/7808718117/il_fullxfull.7808718117_33lp.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/a48e71/7808718117/il_570xN.7808718117_33lp.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/b966bd/7760772248/il_fullxfull.7760772248_qoom.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/b966bd/7760772248/il_570xN.7760772248_qoom.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/f19d01/7808718115/il_fullxfull.7808718115_9mqb.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/f19d01/7808718115/il_570xN.7808718115_9mqb.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/f0d80f/7760772252/il_fullxfull.7760772252_d5ss.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/f0d80f/7760772252/il_570xN.7760772252_d5ss.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/5d6ec2/7808718179/il_fullxfull.7808718179_2hlb.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/5d6ec2/7808718179/il_570xN.7808718179_2hlb.jpg"
+        }
+      ],
+      "tags": [
+        "haftseen",
+        "Nowruz Table Set",
+        "Persian New Year",
+        "Nowruz Essentials",
+        "Haftseen Accessories",
+        "haft sin",
+        "small haftseen",
+        "modern haftseen",
+        "modern nowruz table",
+        "modern haft seen set",
+        "spring equinox decor",
+        "nowruz tableware",
+        "persian nowruz decor"
+      ],
+      "created_at": "2026-03-02",
+      "updated_at": "2026-03-02"
+    },
+    {
+      "id": 4453585138,
+      "title": "Handmade Wavy Ceramic Jewelry Tray – Organic Sculptural Trinket Dish/catchall",
+      "description": "These handmade ceramic tray are sculpted into a soft, wavy form that’s perfect for holding jewelry, keys, or little daily treasures. The glossy white glaze pools beautifully in the curves, while the raw clay edges add warmth and an organic, modern feel.\n\nEach piece is one of a kind — shaped by hand, with natural variations that make every tray unique. Use it on your nightstand for rings and earrings, on a vanity for bracelets and chains, or by the entryway as a stylish catchall.\n\nA simple, elegant accent that elevates any space and makes a thoughtful gift for jewelry lovers, minimalists, or anyone who appreciates handmade pottery.\n\nDimensions: approx. 2.25 x 7 x 6 (H x W x D)\n\nCare: Food-safe, microwave-safe, and dishwasher-safe, though hand-washing is recommended to preserve the glaze.",
+      "price": 60,
+      "currency": "USD",
+      "state": "active",
+      "quantity": 2,
+      "section_id": 56908347,
+      "etsy_url": "https://www.etsy.com/listing/4453585138/handmade-wavy-ceramic-jewelry-tray",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/a14082/7730804081/il_fullxfull.7730804081_nz3a.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/a14082/7730804081/il_570xN.7730804081_nz3a.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/f8883c/7730882659/il_fullxfull.7730882659_h8nd.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/f8883c/7730882659/il_570xN.7730882659_h8nd.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/4c0a4b/7730804071/il_fullxfull.7730804071_cfgj.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/4c0a4b/7730804071/il_570xN.7730804071_cfgj.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/96b69e/7682857212/il_fullxfull.7682857212_skc2.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/96b69e/7682857212/il_570xN.7682857212_skc2.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/7984c2/7730804077/il_fullxfull.7730804077_jfx3.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/7984c2/7730804077/il_570xN.7730804077_jfx3.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/3dc537/7730804083/il_fullxfull.7730804083_4ceh.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/3dc537/7730804083/il_570xN.7730804083_4ceh.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/ec4e62/7682893340/il_fullxfull.7682893340_ipfe.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/ec4e62/7682893340/il_570xN.7682893340_ipfe.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/4eb7fb/7730839641/il_fullxfull.7730839641_smuq.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/4eb7fb/7730839641/il_570xN.7730839641_smuq.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/7e95d6/7682893342/il_fullxfull.7682893342_ig5z.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/7e95d6/7682893342/il_570xN.7682893342_ig5z.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/492d05/7730839645/il_fullxfull.7730839645_1dfa.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/492d05/7730839645/il_570xN.7730839645_1dfa.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/0510fe/7730839643/il_fullxfull.7730839643_1995.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/0510fe/7730839643/il_570xN.7730839643_1995.jpg"
+        }
+      ],
+      "tags": [
+        "jewelry tray",
+        "trinket dish",
+        "ceramic tray",
+        "wavy tray",
+        "catchall dish",
+        "vanity tray",
+        "ceramic decor",
+        "dresser tray",
+        "jewelry holder",
+        "minimalist decor",
+        "modern pottery",
+        "handmade gift",
+        "ring dish"
+      ],
+      "created_at": "2026-02-06",
+      "updated_at": "2026-02-06"
+    },
+    {
+      "id": 4447221285,
+      "title": "Handmade Stoneware Bowl | Rustic Glazed Ceramic Pet Bowl",
+      "description": "This handmade ceramic bowl features a warm, natural stoneware body and a soft, speckled interior glaze. Wheel-thrown and finished by hand.\n\nIts durable weight and smooth, food-safe glaze make it versatile for everyday dining or as a stylish ceramic pet bowl for dogs or cats. Whether used for soup, snacks, or pet food and water, this bowl is designed to be both functional and beautiful.\n\nThe contrast between the raw clay exterior and glazed interior gives it a grounded, modern feel that fits effortlessly into minimalist homes- human or pet-friendly alike.\n\nEach bowl is one of a kind, with natural variations in glaze flow and form that reflect the handmade process.\n\nDimensions: \n• Approx. 5.75” diameter 2.5” height\n\nCare Instructions:\n• Dishwasher safe (hand washing recommended for longevity)\n• Microwave safe",
+      "price": 30,
+      "currency": "USD",
+      "state": "active",
+      "quantity": 1,
+      "section_id": 57144351,
+      "etsy_url": "https://www.etsy.com/listing/4447221285/handmade-ceramic-bowl-rustic-stoneware",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/0439af/7689144925/il_fullxfull.7689144925_q388.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/0439af/7689144925/il_570xN.7689144925_q388.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/8358d2/7641196908/il_fullxfull.7641196908_j2rx.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/8358d2/7641196908/il_570xN.7641196908_j2rx.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/a457d1/7641196892/il_fullxfull.7641196892_aa5j.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/a457d1/7641196892/il_570xN.7641196892_aa5j.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/96fdd5/7641196902/il_fullxfull.7641196902_8kej.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/96fdd5/7641196902/il_570xN.7641196902_8kej.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/b458fd/7641196904/il_fullxfull.7641196904_danl.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/b458fd/7641196904/il_570xN.7641196904_danl.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/65ce0d/7641196898/il_fullxfull.7641196898_7klo.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/65ce0d/7641196898/il_570xN.7641196898_7klo.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/c987aa/7689144929/il_fullxfull.7689144929_jucc.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/c987aa/7689144929/il_570xN.7689144929_jucc.jpg"
+        }
+      ],
+      "tags": [
+        "ceramic bowl",
+        "handmade bowl",
+        "stoneware bowl",
+        "dog bowl ceramic",
+        "pet bowl",
+        "rustic pottery",
+        "pottery bowl",
+        "minimalist bowl",
+        "hand thrown bowl",
+        "ceramic pet bowl",
+        "unique pottery",
+        "cat bowl",
+        "kitchen pottery"
+      ],
+      "created_at": "2026-01-26",
+      "updated_at": "2026-03-22"
+    },
+    {
+      "id": 4447183639,
+      "title": "Handmade Ceramic Cup with Pomegranate Motif | Minimalist Porcelain Tumbler | Tea & Coffee Cup",
+      "description": "This handmade ceramic cup features a bold, hand-painted pomegranate design on a soft, creamy glaze. Each pomegranate is painted individually, giving the cup a warm, organic feel that celebrates simple forms and traditional symbolism.\n\nPerfect for coffee, tea, or your favorite warm drink, this cup is wheel-thrown and glazed by hand, making every piece one of a kind. The slightly rounded shape fits comfortably in your hands and feels just right for slow mornings or cozy evenings.\n\nPerfect for espresso, tea, coffee, or as a small everyday tumbler, this cup brings a quiet, minimalistic presence to your daily ritual.\n\nDetails:\n• Handmade Porcelain ceramic cup\n• hand painted pomegranate design\n• Food-safe, high-fired ceramic\n• Ideal for espresso, tea, or small coffee\n\nDimensions: approx. 3.25in x 3 in (H x W)\n\nCare: Food-safe, microwave-safe, and dishwasher-safe, though hand-washing is recommended to preserve the glaze.",
+      "price": 30,
+      "currency": "USD",
+      "state": "active",
+      "quantity": 1,
+      "section_id": 56360734,
+      "etsy_url": "https://www.etsy.com/listing/4447183639/handmade-ceramic-cup-with-pomegranate",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/ae8d57/7688908239/il_fullxfull.7688908239_7dq9.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/ae8d57/7688908239/il_570xN.7688908239_7dq9.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/7c0b52/7688902115/il_fullxfull.7688902115_1abm.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/7c0b52/7688902115/il_570xN.7688902115_1abm.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/dc2b2e/7640955266/il_fullxfull.7640955266_gh2q.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/dc2b2e/7640955266/il_570xN.7640955266_gh2q.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/9e6678/7640955262/il_fullxfull.7640955262_tt8y.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/9e6678/7640955262/il_570xN.7640955262_tt8y.jpg"
+        }
+      ],
+      "tags": [
+        "espresso cup",
+        "tea cup",
+        "ceramic cup",
+        "coffee cup",
+        "handmade ceramic",
+        "handmade cup",
+        "artisan pottery mug",
+        "modern ceramics",
+        "ceramic drinkware",
+        "minimalist pottery",
+        "modern ceramic cup",
+        "porcelain cup",
+        "pomegranate tumbler"
+      ],
+      "created_at": "2026-01-25",
+      "updated_at": "2026-01-25"
+    },
+    {
+      "id": 4447181589,
+      "title": "Handmade Ceramic Cup with Pomegranate Motif | Minimalist Porcelain Tumbler | Tea & Coffee Cup",
+      "description": "This handmade ceramic cup features a bold, hand-painted pomegranate design on a soft, creamy glaze. Each pomegranate is painted individually, giving the cup a warm, organic feel that celebrates simple forms and traditional symbolism.\n\nPerfect for coffee, tea, or your favorite warm drink, this cup is wheel-thrown and glazed by hand, making every piece one of a kind. The slightly rounded shape fits comfortably in your hands and feels just right for slow mornings or cozy evenings.\n\nPerfect for espresso, tea, coffee, or as a small everyday tumbler, this cup brings a quiet, minimalistic presence to your daily ritual.\n\nDetails:\n• Handmade Porcelain ceramic cup\n• hand painted pomegranate design\n• Food-safe, high-fired ceramic\n• Ideal for espresso, tea, or small coffee\n\nDimensions: approx. 3.25in x 3 in (H x W)\n\nCare: Food-safe, microwave-safe, and dishwasher-safe, though hand-washing is recommended to preserve the glaze.",
+      "price": 30,
+      "currency": "USD",
+      "state": "active",
+      "quantity": 1,
+      "section_id": 56360734,
+      "etsy_url": "https://www.etsy.com/listing/4447181589/handmade-ceramic-cup-with-pomegranate",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/3d318e/7640932096/il_fullxfull.7640932096_nzho.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/3d318e/7640932096/il_570xN.7640932096_nzho.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/5df2da/7688878463/il_fullxfull.7688878463_o9cp.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/5df2da/7688878463/il_570xN.7688878463_o9cp.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/72590c/7688878471/il_fullxfull.7688878471_l1bs.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/72590c/7688878471/il_570xN.7688878471_l1bs.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/701b75/7640932122/il_fullxfull.7640932122_gab3.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/701b75/7640932122/il_570xN.7640932122_gab3.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/50351a/7640932112/il_fullxfull.7640932112_kr66.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/50351a/7640932112/il_570xN.7640932112_kr66.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/244563/7640932120/il_fullxfull.7640932120_4yy3.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/244563/7640932120/il_570xN.7640932120_4yy3.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/79015e/7688878465/il_fullxfull.7688878465_h7ci.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/79015e/7688878465/il_570xN.7688878465_h7ci.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/ecc535/7688878481/il_fullxfull.7688878481_cwbi.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/ecc535/7688878481/il_570xN.7688878481_cwbi.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/5e7e32/7688878487/il_fullxfull.7688878487_5nw3.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/5e7e32/7688878487/il_570xN.7688878487_5nw3.jpg"
+        }
+      ],
+      "tags": [
+        "espresso cup",
+        "tea cup",
+        "ceramic cup",
+        "coffee cup",
+        "handmade ceramic",
+        "handmade cup",
+        "artisan pottery mug",
+        "modern ceramics",
+        "ceramic drinkware",
+        "minimalist pottery",
+        "modern ceramic cup",
+        "porcelain cup",
+        "pomegranate tumbler"
+      ],
+      "created_at": "2026-01-25",
+      "updated_at": "2026-01-25"
+    },
+    {
+      "id": 4437530125,
+      "title": "Handmade Persian Haft Seen Set | Minimal Ceramic Nowruz Tableware | Modern Pottery Haftsin Bowls",
+      "description": "This handmade Persian Haft-Seen set is a modern, minimalist take on a cherished Nowruz tradition. Thoughtfully crafted from stoneware clay, the set features soft white glaze paired with exposed raw clay details for a timeless, organic look.\n\nDesigned to honor tradition while fitting seamlessly into contemporary homes, these pieces are perfect for displaying the seven symbolic items of Haft-Seen during Nowruz, and can be enjoyed year-round as serving bowls or decorative dishes.\n\nEach piece is carefully handmade, making every set subtly unique.\nDetails\n• Handmade stoneware ceramics\n• Glazed interior is food safe\n• Exterior features raw clay texture for a natural, earthy contrast\n• Neutral white glaze complements any table setting\n• Minimal, modern aesthetic with Persian cultural roots\n• Each set is one of a kind\n\nSet Includes\n• Matching 4 plates and 1 bowl \n• Coordinated forms designed specifically for a Haft-Seen table\n• Listing is for one complete Haft-Seen set (as shown)\n\nDimensions: \nPlates: approx. 1in x 5in (H x W)\nBowl: approx. 1.5in x 3.5in (H x W)",
+      "price": 100,
+      "currency": "USD",
+      "state": "active",
+      "quantity": 1,
+      "section_id": 56893276,
+      "etsy_url": "https://www.etsy.com/listing/4437530125/handmade-persian-haft-seen-set-minimal",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/c530ab/7742489292/il_fullxfull.7742489292_p677.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/c530ab/7742489292/il_570xN.7742489292_p677.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/be0dbf/7627198345/il_fullxfull.7627198345_22vv.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/be0dbf/7627198345/il_570xN.7627198345_22vv.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/61dce7/7579255224/il_fullxfull.7579255224_cych.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/61dce7/7579255224/il_570xN.7579255224_cych.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/3dd391/7579255228/il_fullxfull.7579255228_l0pj.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/3dd391/7579255228/il_570xN.7579255228_l0pj.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/2b33f8/7579255226/il_fullxfull.7579255226_ad91.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/2b33f8/7579255226/il_570xN.7579255226_ad91.jpg"
+        }
+      ],
+      "tags": [
+        "haft seen set",
+        "haft sin set",
+        "persian nowruz decor",
+        "nowruz tableware",
+        "persian ceramics",
+        "iranian new year",
+        "middle eastern decor",
+        "persian new year",
+        "handmade ceramics",
+        "spring equinox decor",
+        "modern haft seen set",
+        "modern haft sin set"
+      ],
+      "created_at": "2026-01-08",
+      "updated_at": "2026-03-23"
+    },
+    {
+      "id": 4436275865,
+      "title": "Handmade Ceramic Tumbler| Minimal Stoneware Cup with Raw Clay | Espresso, Tea, or Coffee",
+      "description": "This handmade ceramic cup is crafted from stoneware clay and designed with a calm, minimalist aesthetic. The exterior features warm, natural raw clay with subtle hand-carved line details, while the rim is finished with a soft white glaze for a smooth, comfortable drinking surface.\n\nEach cup is wheel-thrown and finished by hand, making every piece truly one of a kind. Slight variations in shape, texture, and glaze are part of the beauty of handmade pottery and ensure your cup is uniquely yours.\n\nPerfect for espresso, tea, coffee, or as a small everyday tumbler, this cup brings a quiet, earthy presence to your daily ritual.\n\nDetails:\n• Handmade stoneware ceramic cup\n• Raw clay exterior with carved line accents\n• Glazed rim and interior for functionality\n• Food-safe, high-fired ceramic\n• Ideal for espresso, tea, or small coffee\n\nDimensions: approx. 2.75 in x 3.25 in (H x W)\n\nCare: Food-safe, microwave-safe, and dishwasher-safe, though hand-washing is recommended to preserve the glaze.",
+      "price": 30,
+      "currency": "USD",
+      "state": "active",
+      "quantity": 1,
+      "section_id": 56360734,
+      "etsy_url": "https://www.etsy.com/listing/4436275865/handmade-ceramic-tumbler-minimal",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/a8051f/7571624880/il_fullxfull.7571624880_p6t0.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/a8051f/7571624880/il_570xN.7571624880_p6t0.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/bec3e3/7619574455/il_fullxfull.7619574455_1wty.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/bec3e3/7619574455/il_570xN.7619574455_1wty.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/2da4e9/7571624882/il_fullxfull.7571624882_jbkl.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/2da4e9/7571624882/il_570xN.7571624882_jbkl.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/456945/7619574453/il_fullxfull.7619574453_7nny.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/456945/7619574453/il_570xN.7619574453_7nny.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/bc32c6/7571624878/il_fullxfull.7571624878_mhoa.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/bc32c6/7571624878/il_570xN.7571624878_mhoa.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/0794c6/7571624876/il_fullxfull.7571624876_43bo.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/0794c6/7571624876/il_570xN.7571624876_43bo.jpg"
+        }
+      ],
+      "tags": [
+        "espresso cup",
+        "tea cup",
+        "ceramic cup",
+        "coffee cup",
+        "handmade ceramic",
+        "handmade cup",
+        "artisan pottery mug",
+        "modern ceramics",
+        "stoneware tumbler",
+        "ceramic drinkware",
+        "minimalist pottery",
+        "raw clay ceramic",
+        "modern ceramic cup"
+      ],
+      "created_at": "2026-01-05",
+      "updated_at": "2026-01-06"
+    },
+    {
+      "id": 4436277472,
+      "title": "Handmade Ceramic Tumbler| Minimal Stoneware Cup with Raw Clay | Espresso, Tea, or Coffee",
+      "description": "This handmade ceramic cup is crafted from stoneware clay and designed with a calm, minimalist aesthetic. The exterior features warm, natural raw clay with subtle hand-carved line details, while the rim is finished with a soft white glaze for a smooth, comfortable drinking surface.\n\nEach cup is wheel-thrown and finished by hand, making every piece truly one of a kind. Slight variations in shape, texture, and glaze are part of the beauty of handmade pottery and ensure your cup is uniquely yours.\n\nPerfect for espresso, tea, coffee, or as a small everyday tumbler, this cup brings a quiet, earthy presence to your daily ritual.\n\nDetails:\n• Handmade stoneware ceramic cup\n• Raw clay exterior with carved line accents\n• Glazed rim and interior for functionality\n• Food-safe, high-fired ceramic\n• Ideal for espresso, tea, or small coffee\n\nDimensions: approx. 3 in x 3 in (H x W)\n\nCare: Food-safe, microwave-safe, and dishwasher-safe, though hand-washing is recommended to preserve the glaze.",
+      "price": 30,
+      "currency": "USD",
+      "state": "active",
+      "quantity": 1,
+      "section_id": 56360734,
+      "etsy_url": "https://www.etsy.com/listing/4436277472/handmade-ceramic-tumbler-minimal",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/4cc20f/7619556127/il_fullxfull.7619556127_hmi6.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/4cc20f/7619556127/il_570xN.7619556127_hmi6.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/64e374/7619556129/il_fullxfull.7619556129_9obt.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/64e374/7619556129/il_570xN.7619556129_9obt.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/aaa675/7619556133/il_fullxfull.7619556133_go04.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/aaa675/7619556133/il_570xN.7619556133_go04.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/373e5c/7619556135/il_fullxfull.7619556135_6p2d.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/373e5c/7619556135/il_570xN.7619556135_6p2d.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/223d7a/7619556123/il_fullxfull.7619556123_knzr.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/223d7a/7619556123/il_570xN.7619556123_knzr.jpg"
+        }
+      ],
+      "tags": [
+        "espresso cup",
+        "tea cup",
+        "ceramic cup",
+        "coffee cup",
+        "handmade ceramic",
+        "handmade cup",
+        "artisan pottery mug",
+        "modern ceramics",
+        "stoneware tumbler",
+        "ceramic drinkware",
+        "minimalist pottery",
+        "raw clay ceramic",
+        "modern ceramic cup"
+      ],
+      "created_at": "2026-01-05",
+      "updated_at": "2026-01-06"
+    },
+    {
+      "id": 4432890577,
+      "title": "Handmade Textured Cortado Mug • Icy Blue Crystal Glaze",
+      "description": "This handmade espresso Mug features a beautiful blue textured crystalline glaze that gives the surface a soft, organic, icy pattern. Wheel-thrown from stoneware clay, each cup has its own subtle variations, making it truly one-of-a-kind.\n\nThe rounded form fits comfortably in your hand, perfect for espresso shots, tea sips, or small daily rituals. The glossy interior and textured exterior add contrast and charm, giving this piece a calming, artisanal feel.\n\nDimensions: approx. 3.50 in x 3.25 in (H x W)\nCare: Food safe, microwave safe, and handwashing is recommended to preserve the finish.",
+      "price": 35,
+      "currency": "USD",
+      "state": "active",
+      "quantity": 1,
+      "section_id": 56360734,
+      "etsy_url": "https://www.etsy.com/listing/4432890577/handmade-textured-cortado-mug-icy-blue",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/142ec4/7599654689/il_fullxfull.7599654689_b8xy.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/142ec4/7599654689/il_570xN.7599654689_b8xy.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/3520c9/7551709328/il_fullxfull.7551709328_scby.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/3520c9/7551709328/il_570xN.7551709328_scby.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/d262f7/7599653713/il_fullxfull.7599653713_nq60.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/d262f7/7599653713/il_570xN.7599653713_nq60.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/15fa32/7551709330/il_fullxfull.7551709330_a0ef.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/15fa32/7551709330/il_570xN.7551709330_a0ef.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/d8ba1a/7551709326/il_fullxfull.7551709326_hz87.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/d8ba1a/7551709326/il_570xN.7551709326_hz87.jpg"
+        }
+      ],
+      "tags": [
+        "blue ceramic cup",
+        "cortado cup",
+        "minimalist cup",
+        "modern ceramic",
+        "Ceramic Mug",
+        "Espresso Mug",
+        "cortado Mug",
+        "Handmade tea mug",
+        "Coffee Mug",
+        "tea Mug",
+        "Unique Pottery Mug",
+        "Ceramic Espresso Mug",
+        "icy blue mug"
+      ],
+      "created_at": "2025-12-30",
+      "updated_at": "2025-12-30"
+    },
+    {
+      "id": 4432896306,
+      "title": "Handmade Textured Cortado Mug • Blue Crystal Glaze",
+      "description": "This handmade espresso Mug features a beautiful blue textured crystalline glaze that gives the surface a soft, organic, icy pattern. Wheel-thrown from stoneware clay, each cup has its own subtle variations, making it truly one-of-a-kind.\n\nThe rounded form fits comfortably in your hand, perfect for espresso shots, tea sips, or small daily rituals. The glossy interior and textured exterior add contrast and charm, giving this piece a calming, artisanal feel.\n\nDimensions: approx. 3.25 in x 3.25 in (H x W)\nCare: Food safe, microwave safe, and handwashing is recommended to preserve the finish.",
+      "price": 35,
+      "currency": "USD",
+      "state": "active",
+      "quantity": 1,
+      "section_id": 56360734,
+      "etsy_url": "https://www.etsy.com/listing/4432896306/handmade-textured-cortado-mug-blue",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/2bf653/7599642847/il_fullxfull.7599642847_c26z.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/2bf653/7599642847/il_570xN.7599642847_c26z.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/06ad9e/7599642175/il_fullxfull.7599642175_9m3i.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/06ad9e/7599642175/il_570xN.7599642175_9m3i.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/09dcac/7551697712/il_fullxfull.7551697712_gaw0.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/09dcac/7551697712/il_570xN.7551697712_gaw0.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/debd86/7551697714/il_fullxfull.7551697714_6bvh.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/debd86/7551697714/il_570xN.7551697714_6bvh.jpg"
+        }
+      ],
+      "tags": [
+        "blue ceramic cup",
+        "cortado cup",
+        "minimalist cup",
+        "modern ceramic",
+        "Ceramic Mug",
+        "Espresso Mug",
+        "cortado Mug",
+        "Soda Fired Mug",
+        "Handmade tea mug",
+        "Coffee Mug",
+        "tea Mug",
+        "Unique Pottery Mug",
+        "Ceramic Espresso Mug"
+      ],
+      "created_at": "2025-12-30",
+      "updated_at": "2025-12-30"
+    },
+    {
+      "id": 4432886835,
+      "title": "Green Geometric Planter - Speckled Clay Indoor Planter",
+      "description": "Bring a touch of handmade charm to your home with this ceramic planter, crafted from stoneware clay and finished with a mix of raw texture and smooth glaze. The inside is half glazed for easy cleaning, while the exterior features a beautiful balance of exposed clay and soft glaze accents — giving it an earthy, modern aesthetic.\n\nPerfect Planter for succulents or any medium sized houseplant, this planter works beautifully in minimalist, earthy, or boho-inspired spaces. It also makes a thoughtful gift for plant lovers, new homeowners, or anyone who appreciates handmade pottery.\n\nDimensions:  approx 4.25 in x 5.75 in ( H x W )\nCare: Food-safe, microwave-safe, and dishwasher-safe, though hand-washing is recommended to preserve the glaze.",
+      "price": 40,
+      "currency": "USD",
+      "state": "active",
+      "quantity": 1,
+      "section_id": 56359847,
+      "etsy_url": "https://www.etsy.com/listing/4432886835/green-geometric-planter-speckled-clay",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/44510a/7599623561/il_fullxfull.7599623561_bkgw.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/44510a/7599623561/il_570xN.7599623561_bkgw.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/06f680/7599623555/il_fullxfull.7599623555_4dl8.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/06f680/7599623555/il_570xN.7599623555_4dl8.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/da9d1f/7599623547/il_fullxfull.7599623547_9e84.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/da9d1f/7599623547/il_570xN.7599623547_9e84.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/55ecf3/7551679178/il_fullxfull.7551679178_28dl.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/55ecf3/7551679178/il_570xN.7551679178_28dl.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/fb6cc5/7599623557/il_fullxfull.7599623557_ospi.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/fb6cc5/7599623557/il_570xN.7599623557_ospi.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/cb49f8/7599623559/il_fullxfull.7599623559_reuc.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/cb49f8/7599623559/il_570xN.7599623559_reuc.jpg"
+        }
+      ],
+      "tags": [
+        "Indoor Planter",
+        "Cactus Planter",
+        "Houseplant Pot",
+        "Desktop Planter",
+        "Speckled Clay Pot",
+        "Green Planter Pot",
+        "succulent pot",
+        "handmade home decor",
+        "Handmade Planter",
+        "small indoor planter",
+        "minimalist planter",
+        "Modern Planter",
+        "Geometric planter"
+      ],
+      "created_at": "2025-12-30",
+      "updated_at": "2025-12-30"
+    },
+    {
+      "id": 4418139403,
+      "title": "Green Planter - Speckled Clay Indoor Planter with drainage hole",
+      "description": "Bring a touch of handmade charm to your home with this small ceramic planter, crafted from stoneware clay and finished with a mix of raw texture and smooth glaze. The inside is fully glazed for easy cleaning, giving it an earthy, modern aesthetic. Includes a drainage hole.\n\nPerfect Planter for succulents or any small houseplant, this planter works beautifully in minimalist, earthy, or boho-inspired spaces. It also makes a thoughtful gift for plant lovers, new homeowners, or anyone who appreciates handmade pottery.\n\nDimensions:  approx 3.5 in x 4 in ( H x W )\nCare: Food-safe, microwave-safe, and dishwasher-safe, though hand-washing is recommended to preserve the glaze.\n\n* Plant not included",
+      "price": 30,
+      "currency": "USD",
+      "state": "active",
+      "quantity": 1,
+      "section_id": 56359847,
+      "etsy_url": "https://www.etsy.com/listing/4418139403/green-planter-speckled-clay-indoor",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/47d16b/7522954287/il_fullxfull.7522954287_mbck.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/47d16b/7522954287/il_570xN.7522954287_mbck.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/f8c0e2/7522953725/il_fullxfull.7522953725_8r15.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/f8c0e2/7522953725/il_570xN.7522953725_8r15.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/520ca0/7522953719/il_fullxfull.7522953719_3mf9.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/520ca0/7522953719/il_570xN.7522953719_3mf9.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/5a42a6/7475020034/il_fullxfull.7475020034_1rs8.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/5a42a6/7475020034/il_570xN.7475020034_1rs8.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/9cca49/7522953723/il_fullxfull.7522953723_tac1.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/9cca49/7522953723/il_570xN.7522953723_tac1.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/2e3b25/7475020032/il_fullxfull.7475020032_aays.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/2e3b25/7475020032/il_570xN.7475020032_aays.jpg"
+        }
+      ],
+      "tags": [
+        "Indoor Planter",
+        "Cactus Planter",
+        "Houseplant Pot",
+        "Desktop Planter",
+        "Speckled Clay Pot",
+        "Green Planter Pot",
+        "succulent pot",
+        "handmade home decor",
+        "Handmade Planter",
+        "small indoor planter",
+        "minimalist planter",
+        "Modern Planter",
+        "Pot with drainage"
+      ],
+      "created_at": "2025-12-05",
+      "updated_at": "2025-12-05"
+    },
+    {
+      "id": 4418136698,
+      "title": "Green Geometric Planter - Small Speckled Clay Indoor Planter",
+      "description": "Bring a touch of handmade charm to your home with this small ceramic planter, crafted from stoneware clay and finished with a mix of raw texture and smooth glaze. The inside is fully glazed for easy cleaning, while the exterior features a beautiful balance of exposed clay and soft glaze accents — giving it an earthy, modern aesthetic.\n\nPerfect Planter for succulents or any small houseplant, this planter works beautifully in minimalist, earthy, or boho-inspired spaces. It also makes a thoughtful gift for plant lovers, new homeowners, or anyone who appreciates handmade pottery.\n\nDimensions:  approx 2.75 in x 3.25 in ( H x W )\nCare: Food-safe, microwave-safe, and dishwasher-safe, though hand-washing is recommended to preserve the glaze.",
+      "price": 25,
+      "currency": "USD",
+      "state": "active",
+      "quantity": 1,
+      "section_id": 56359847,
+      "etsy_url": "https://www.etsy.com/listing/4418136698/green-geometric-planter-small-speckled",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/6b2523/7475012608/il_fullxfull.7475012608_ejcj.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/6b2523/7475012608/il_570xN.7475012608_ejcj.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/8d1e6f/7475012612/il_fullxfull.7475012612_lerw.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/8d1e6f/7475012612/il_570xN.7475012612_lerw.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/4488b6/7475012604/il_fullxfull.7475012604_1mmj.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/4488b6/7475012604/il_570xN.7475012604_1mmj.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/8ec563/7522946417/il_fullxfull.7522946417_syrx.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/8ec563/7522946417/il_570xN.7522946417_syrx.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/18133c/7475012606/il_fullxfull.7475012606_ovki.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/18133c/7475012606/il_570xN.7475012606_ovki.jpg"
+        }
+      ],
+      "tags": [
+        "Indoor Planter",
+        "Cactus Planter",
+        "Houseplant Pot",
+        "Desktop Planter",
+        "Speckled Clay Pot",
+        "Green Planter Pot",
+        "succulent pot",
+        "handmade home decor",
+        "Handmade Planter",
+        "small indoor planter",
+        "minimalist planter",
+        "Modern Planter",
+        "Geometric planter"
+      ],
+      "created_at": "2025-12-05",
+      "updated_at": "2025-12-05"
+    },
+    {
+      "id": 4418096903,
+      "title": "Blue Speckled Small planter - Handmade Tabletop Planter",
+      "description": "Bring a soft pop of color to your home with this handmade speckled blue ceramic planter. Wheel-thrown and finished with a textured blue-on-white glaze, this planter has a gentle wavy form that adds charm without overpowering your plant. Its small size makes it perfect for succulents, cacti, mini houseplants, or as a decorative catch-all dish.\n\nEach piece is made by hand, so no two planters are exactly alike—each has its own glaze pattern, personality, and subtle variations. \n\nDimensions: approximately 3 in x 3.75 in (H x W)\nCare: Food-safe, microwave-safe, and dishwasher-safe, though hand-washing is recommended to preserve the glaze.\n\n* Plant not included",
+      "price": 25,
+      "currency": "USD",
+      "state": "active",
+      "quantity": 1,
+      "section_id": 56359847,
+      "etsy_url": "https://www.etsy.com/listing/4418096903/blue-speckled-small-planter-handmade",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/62f5b9/7474732290/il_fullxfull.7474732290_ltmp.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/62f5b9/7474732290/il_570xN.7474732290_ltmp.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/03a016/7474732294/il_fullxfull.7474732294_cxkw.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/03a016/7474732294/il_570xN.7474732294_cxkw.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/1e146d/7474732288/il_fullxfull.7474732288_aii2.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/1e146d/7474732288/il_570xN.7474732288_aii2.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/0a2688/7522665439/il_fullxfull.7522665439_k1f5.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/0a2688/7522665439/il_570xN.7522665439_k1f5.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/bfcb27/7474732286/il_fullxfull.7474732286_j1ot.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/bfcb27/7474732286/il_570xN.7474732286_j1ot.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/0ef1cc/7522665411/il_fullxfull.7522665411_6ire.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/0ef1cc/7522665411/il_570xN.7522665411_6ire.jpg"
+        }
+      ],
+      "tags": [
+        "speckled planter",
+        "speckled blue Pot",
+        "succulent planter",
+        "succulent pot",
+        "ceramic planter",
+        "indoor planter",
+        "desktop planter",
+        "minimalist planter",
+        "unique ceramic pot",
+        "Planter Pot",
+        "small indoor planter",
+        "blue planter",
+        "House planter"
+      ],
+      "created_at": "2025-12-05",
+      "updated_at": "2025-12-05"
+    },
+    {
+      "id": 4413176589,
+      "title": "Ikebana Kenzan Bowl – Wheel-Thrown Ceramic Floral Arrangement",
+      "description": "This piece is ideal for displaying single blooms, seasonal branches, or small curated arrangements. A beautiful addition to coffee tables, shelves, kitchen Islands, or a thoughtful gift for flower lovers.\n\nBowl comes with a 1.34-inch brass kenzan (frog pin), making it effortless to create balanced, sculptural ikebana flower arrangements. Just add water, place your stems on the frog pin, and let your creativity flow.\n\nDetails:\nDimensions: approx 2.75inch x 3.25inch (H x W)\nHandmade, wheel-thrown stoneware\nIncludes 1.34&quot; brass frog pin (kenzan)\nFood-safe glaze (if needed for multi-use)\nPerfect for ikebana, floral art, or minimalist décor",
+      "price": 35,
+      "currency": "USD",
+      "state": "active",
+      "quantity": 1,
+      "section_id": 56431823,
+      "etsy_url": "https://www.etsy.com/listing/4413176589/ikebana-kenzan-bowl-wheel-thrown-ceramic",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/741de4/7447025700/il_fullxfull.7447025700_8ljb.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/741de4/7447025700/il_570xN.7447025700_8ljb.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/2bbe43/7494946441/il_fullxfull.7494946441_dxem.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/2bbe43/7494946441/il_570xN.7494946441_dxem.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/1483ec/7494946437/il_fullxfull.7494946437_8wk6.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/1483ec/7494946437/il_570xN.7494946437_8wk6.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/a2165f/7494946439/il_fullxfull.7494946439_b63y.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/a2165f/7494946439/il_570xN.7494946439_b63y.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/01e23d/7494946443/il_fullxfull.7494946443_o7yo.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/01e23d/7494946443/il_570xN.7494946443_o7yo.jpg"
+        }
+      ],
+      "tags": [
+        "ikebana bowl",
+        "ikebana vase",
+        "ikebana dish",
+        "kenzan bowl",
+        "flower frog vase",
+        "ceramic ikebana",
+        "ceramic flower bowl",
+        "minimal flower vase",
+        "handmade ikebana",
+        "japanese arrangement",
+        "floral arrangement",
+        "wabi sabi decor",
+        "unique flower vase"
+      ],
+      "created_at": "2025-11-27",
+      "updated_at": "2025-11-27"
+    },
+    {
+      "id": 4411331183,
+      "title": "Handmade Textured Espresso Cup • Blue Crystalline Glaze Tumbler",
+      "description": "This handmade espresso cup features a beautiful blue textured crystalline glaze that gives the surface a soft, organic, icy pattern. Wheel-thrown from stoneware clay, each cup has its own subtle variations, making it truly one-of-a-kind.\n\nThe rounded form fits comfortably in your hand, perfect for espresso shots, tea sips, or small daily rituals. The glossy interior and textured exterior add contrast and charm, giving this piece a calming, artisanal feel.\n\nDimensions: approx. 2.5 in x 3 in (H x W)\nCare: Food safe, microwave safe, and handwashing is recommended to preserve the finish.",
+      "price": 30,
+      "currency": "USD",
+      "state": "active",
+      "quantity": 1,
+      "section_id": 56360734,
+      "etsy_url": "https://www.etsy.com/listing/4411331183/handmade-textured-espresso-cup-blue",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/9f5c63/7483740171/il_fullxfull.7483740171_crey.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/9f5c63/7483740171/il_570xN.7483740171_crey.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/a8c55b/7435819404/il_fullxfull.7435819404_ptlw.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/a8c55b/7435819404/il_570xN.7435819404_ptlw.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/a681f1/7483737855/il_fullxfull.7483737855_snsn.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/a681f1/7483737855/il_570xN.7483737855_snsn.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/f89350/7435819406/il_fullxfull.7435819406_3wfa.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/f89350/7435819406/il_570xN.7435819406_3wfa.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/6eea66/7483737863/il_fullxfull.7483737863_cef1.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/6eea66/7483737863/il_570xN.7483737863_cef1.jpg"
+        }
+      ],
+      "tags": [
+        "espresso cup",
+        "ceramic espresso cup",
+        "small ceramic cup",
+        "ceramic tumbler",
+        "blue ceramic cup",
+        "soda fired cup",
+        "handmade tea cup",
+        "cortado cup",
+        "unique pottery cup",
+        "coffee cup",
+        "minimalist cup",
+        "modern ceramic",
+        "tea cup"
+      ],
+      "created_at": "2025-11-25",
+      "updated_at": "2026-01-06"
+    },
+    {
+      "id": 4463751010,
+      "title": "Ikebana Kenzan shallow bowl – Wheel-Thrown Porcelain Floral Arrangement",
+      "description": "This piece is ideal for displaying single blooms, seasonal branches, or small curated arrangements. A beautiful addition to coffee tables, shelves, kitchen Islands, or a thoughtful gift for flower lovers.\n\nBowl comes with a 1.34-inch brass kenzan (frog pin), making it effortless to create balanced, sculptural ikebana flower arrangements. Just add water, place your stems on the frog pin, and let your creativity flow.\n\nDetails:\nDimensions: approx 1.25 x 5inch (H x W)\nHandmade, wheel-thrown stoneware\nIncludes 1.34&quot; brass frog pin (kenzan)\nFood-safe glaze (if needed for multi-use)\nPerfect for ikebana, floral art, or minimalist décor",
+      "price": 35,
+      "currency": "USD",
+      "state": "sold_out",
+      "quantity": 0,
+      "section_id": 56431823,
+      "etsy_url": "https://www.etsy.com/listing/4463751010/ikebana-kenzan-shallow-bowl-wheel-thrown",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/82a45b/7751255080/il_fullxfull.7751255080_2ywz.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/82a45b/7751255080/il_570xN.7751255080_2ywz.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/233dbb/7799202759/il_fullxfull.7799202759_npoa.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/233dbb/7799202759/il_570xN.7799202759_npoa.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/0bc8ff/7751249762/il_fullxfull.7751249762_h56j.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/0bc8ff/7751249762/il_570xN.7751249762_h56j.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/5aad07/7751249772/il_fullxfull.7751249772_7md2.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/5aad07/7751249772/il_570xN.7751249772_7md2.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/64c90c/7751249756/il_fullxfull.7751249756_7pq2.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/64c90c/7751249756/il_570xN.7751249756_7pq2.jpg"
+        }
+      ],
+      "tags": [
+        "ikebana bowl",
+        "ikebana vase",
+        "ikebana dish",
+        "kenzan bowl",
+        "flower frog vase",
+        "ceramic ikebana",
+        "ceramic flower bowl",
+        "minimal flower vase",
+        "handmade ikebana",
+        "japanese arrangement",
+        "floral arrangement",
+        "wabi sabi decor",
+        "unique flower vase"
+      ],
+      "created_at": "2026-02-27",
+      "updated_at": "2026-03-24"
+    },
+    {
+      "id": 4465203565,
+      "title": "Handmade Persian Haft Seen Set | Minimal Ceramic Nowruz Tableware | Modern White Pottery Haftsin Sets",
+      "description": "A set of six small ceramic bowls made for the Nowruz haft seen table. Each bowl is wheel-thrown and finished in a speckled white glaze with a natural stoneware exterior — simple, earthy, and made to hold the symbols of the new year.\n\nDesigned to honor tradition while fitting seamlessly into contemporary homes, these pieces are perfect for displaying the seven symbolic items of Haft-Seen during Nowruz, and can be enjoyed year-round as serving bowls or decorative dishes.\n\nEach piece is carefully handmade, making every set subtly unique.\nDetails\n• Handmade stoneware ceramics\n• Glazed interior is food safe\n• Exterior features raw clay texture for a natural, earthy contrast\n• Neutral glaze complements any table setting\n• Minimal, modern aesthetic with Persian cultural roots\n• Each set is one of a kind\n\nSet Includes\n• Matching 4 plates and 1 bowl \n• Coordinated forms designed specifically for a Haft-Seen table\n• Listing is for one complete Haft-Seen set (as shown)\n\nDimensions: \n4 Plates: approx. 0.75in x 3.5in (H x W)\n1 Bowl: approx. 1.5in x 4in (H x W)",
+      "price": 100,
+      "currency": "USD",
+      "state": "sold_out",
+      "quantity": 0,
+      "section_id": 56893276,
+      "etsy_url": "https://www.etsy.com/listing/4465203565/handmade-persian-haft-seen-set-minimal",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/c558eb/7760871314/il_fullxfull.7760871314_src1.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/c558eb/7760871314/il_570xN.7760871314_src1.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/045bb7/7760871316/il_fullxfull.7760871316_axtl.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/045bb7/7760871316/il_570xN.7760871316_axtl.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/c94258/7808818025/il_fullxfull.7808818025_4ci9.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/c94258/7808818025/il_570xN.7808818025_4ci9.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/92c158/7808818027/il_fullxfull.7808818027_nybe.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/92c158/7808818027/il_570xN.7808818027_nybe.jpg"
+        }
+      ],
+      "tags": [
+        "haftseen",
+        "Nowruz Table Set",
+        "Persian New Year",
+        "Nowruz Essentials",
+        "Haftseen Accessories",
+        "haft sin",
+        "small haftseen",
+        "modern haftseen",
+        "modern nowruz table",
+        "modern haft seen set",
+        "spring equinox decor",
+        "nowruz tableware",
+        "persian nowruz decor"
+      ],
+      "created_at": "2026-03-02",
+      "updated_at": "2026-03-20"
+    },
+    {
+      "id": 4447247613,
+      "title": "Handmade Stoneware Bowl | Rustic Ceramic Pet Bowl",
+      "description": "This handmade ceramic bowl features a warm, natural stoneware body and a soft, off-white glaze. Wheel-thrown and finished by hand.\n\nIts durable weight and smooth, food-safe glaze make it versatile for everyday dining or as a stylish ceramic pet bowl for dogs or cats. Whether used for soup, snacks, or pet food and water, this bowl is designed to be both functional and beautiful.\n\nThe contrast between the raw clay exterior and glazed interior gives it a grounded, modern feel that fits effortlessly into minimalist homes- human or pet-friendly alike.\n\nEach bowl is one of a kind, with natural variations in glaze flow and form that reflect the handmade process.\n\nDimensions: \n• Approx. 6” diameter 2.5” height\n\nCare Instructions:\n• Dishwasher safe (hand washing recommended for longevity)\n• Microwave safe",
+      "price": 30,
+      "currency": "USD",
+      "state": "sold_out",
+      "quantity": 0,
+      "section_id": 57144351,
+      "etsy_url": "https://www.etsy.com/listing/4447247613/handmade-stoneware-bowl-rustic-ceramic",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/9c31ff/7689311091/il_fullxfull.7689311091_phms.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/9c31ff/7689311091/il_570xN.7689311091_phms.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/94e02b/7641364566/il_fullxfull.7641364566_j14t.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/94e02b/7641364566/il_570xN.7641364566_j14t.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/1c7408/7689311095/il_fullxfull.7689311095_sf5v.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/1c7408/7689311095/il_570xN.7689311095_sf5v.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/39e49f/7641364578/il_fullxfull.7641364578_dt00.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/39e49f/7641364578/il_570xN.7641364578_dt00.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/be4f8a/7689311101/il_fullxfull.7689311101_3our.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/be4f8a/7689311101/il_570xN.7689311101_3our.jpg"
+        }
+      ],
+      "tags": [
+        "ceramic bowl",
+        "handmade bowl",
+        "stoneware bowl",
+        "dog bowl ceramic",
+        "rustic pottery",
+        "minimalist bowl",
+        "hand thrown bowl",
+        "ceramic pet bowl",
+        "unique pottery",
+        "off-white bowl",
+        "cereal bowl",
+        "ice cream bowl",
+        "soup bowl"
+      ],
+      "created_at": "2026-01-26",
+      "updated_at": "2026-02-03"
+    },
+    {
+      "id": 4447221811,
+      "title": "Handmade Stoneware Bowl | Rustic Ceramic Pet Bowl",
+      "description": "This handmade ceramic bowl features a warm, natural stoneware body and a soft, speckled interior glaze. Wheel-thrown and finished by hand.\n\nIts durable weight and smooth, food-safe glaze make it versatile for everyday dining or as a stylish ceramic pet bowl for dogs or cats. Whether used for soup, snacks, or pet food and water, this bowl is designed to be both functional and beautiful.\n\nThe contrast between the raw clay exterior and glazed interior gives it a grounded, modern feel that fits effortlessly into minimalist homes- human or pet-friendly alike.\n\nEach bowl is one of a kind, with natural variations in glaze flow and form that reflect the handmade process.\n\nDimensions: \n• Approx. 6” diameter 2.5” height\n\nCare Instructions:\n• Dishwasher safe (hand washing recommended for longevity)\n• Microwave safe",
+      "price": 30,
+      "currency": "USD",
+      "state": "sold_out",
+      "quantity": 0,
+      "section_id": 57144351,
+      "etsy_url": "https://www.etsy.com/listing/4447221811/handmade-ceramic-bowl-rustic-stoneware",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/d4bf6b/7689152091/il_fullxfull.7689152091_dfsv.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/d4bf6b/7689152091/il_570xN.7689152091_dfsv.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/5c842a/7641203976/il_fullxfull.7641203976_3ce6.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/5c842a/7641203976/il_570xN.7641203976_3ce6.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/6b08b9/7689152093/il_fullxfull.7689152093_3j4x.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/6b08b9/7689152093/il_570xN.7689152093_3j4x.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/c098aa/7689152095/il_fullxfull.7689152095_y8g0.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/c098aa/7689152095/il_570xN.7689152095_y8g0.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/f3b9e9/7641203974/il_fullxfull.7641203974_j630.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/f3b9e9/7641203974/il_570xN.7641203974_j630.jpg"
+        }
+      ],
+      "tags": [
+        "ceramic bowl",
+        "handmade bowl",
+        "stoneware bowl",
+        "dog bowl ceramic",
+        "pet bowl",
+        "rustic pottery",
+        "pottery bowl",
+        "minimalist bowl",
+        "hand thrown bowl",
+        "ceramic pet bowl",
+        "unique pottery",
+        "cat bowl",
+        "kitchen pottery"
+      ],
+      "created_at": "2026-01-26",
+      "updated_at": "2026-03-22"
+    },
+    {
+      "id": 4447206730,
+      "title": "Handmade Stoneware Bowl | Rustic Ceramic Pet Bowl, Brushstroke Detail",
+      "description": "This handmade ceramic bowl features a warm, natural stoneware body with expressive black brushstroke detailing and a soft, speckled interior glaze. Wheel-thrown and finished by hand, this bowl embraces a wabi-sabi aesthetic—celebrating texture, movement, and subtle imperfections.\n\nIts durable weight and smooth, food-safe glaze make it versatile for everyday dining or as a stylish ceramic pet bowl for dogs or cats. Whether used for soup, snacks, or pet food and water, this bowl is designed to be both functional and beautiful.\n\nThe contrast between the raw clay exterior and glazed interior gives it a grounded, modern feel that fits effortlessly into minimalist homes—human or pet-friendly alike.\n\nEach bowl is one of a kind, with natural variations in glaze flow, brushwork, and form that reflect the handmade process.\n\nDimensions: \n• Approx. 5.75” diameter 2.75” height\n\nCare Instructions:\n• Dishwasher safe (hand washing recommended for longevity)\n• Microwave safe",
+      "price": 30,
+      "currency": "USD",
+      "state": "sold_out",
+      "quantity": 0,
+      "section_id": 57144351,
+      "etsy_url": "https://www.etsy.com/listing/4447206730/handmade-ceramic-bowl-rustic-stoneware",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/817c7e/7641057240/il_fullxfull.7641057240_36s3.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/817c7e/7641057240/il_570xN.7641057240_36s3.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/358b52/7689004809/il_fullxfull.7689004809_j5n7.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/358b52/7689004809/il_570xN.7689004809_j5n7.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/e085ec/7689004833/il_fullxfull.7689004833_gk8f.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/e085ec/7689004833/il_570xN.7689004833_gk8f.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/2e745e/7641057182/il_fullxfull.7641057182_2b9j.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/2e745e/7641057182/il_570xN.7641057182_2b9j.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/773822/7689004853/il_fullxfull.7689004853_6boo.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/773822/7689004853/il_570xN.7689004853_6boo.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/6976be/7641057374/il_fullxfull.7641057374_8wcw.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/6976be/7641057374/il_570xN.7641057374_8wcw.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/7612c4/7689005077/il_fullxfull.7689005077_g3ov.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/7612c4/7689005077/il_570xN.7689005077_g3ov.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/cb9312/7641057332/il_fullxfull.7641057332_p54r.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/cb9312/7641057332/il_570xN.7641057332_p54r.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/eee108/7641057530/il_fullxfull.7641057530_h2ky.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/eee108/7641057530/il_570xN.7641057530_h2ky.jpg"
+        }
+      ],
+      "tags": [
+        "ceramic bowl",
+        "handmade bowl",
+        "stoneware bowl",
+        "dog bowl ceramic",
+        "pet bowl",
+        "rustic pottery",
+        "pottery bowl",
+        "minimalist bowl",
+        "hand thrown bowl",
+        "ceramic pet bowl",
+        "unique pottery",
+        "cat bowl",
+        "kitchen pottery"
+      ],
+      "created_at": "2026-01-25",
+      "updated_at": "2026-02-21"
+    },
+    {
+      "id": 4437538736,
+      "title": "Handmade Persian Haft Seen Set | Minimal Ceramic Nowruz Tableware | Modern White Pottery Haftsin Bowls",
+      "description": "This handmade Persian Haft-Seen set is a modern, minimalist take on a cherished Nowruz tradition. Thoughtfully crafted from stoneware clay, the set features soft white glaze paired with exposed raw clay details for a timeless, organic look.\n\nDesigned to honor tradition while fitting seamlessly into contemporary homes, these pieces are perfect for displaying the seven symbolic items of Haft-Seen during Nowruz, and can be enjoyed year-round as serving bowls or decorative dishes.\n\nEach piece is carefully handmade, making every set subtly unique.\nDetails\n• Handmade stoneware ceramics\n• Glazed interior is food safe\n• Exterior features raw clay texture for a natural, earthy contrast\n• Neutral white glaze complements any table setting\n• Minimal, modern aesthetic with Persian cultural roots\n• Each set is one of a kind\n\nSet Includes\n• Matching 4 plates and 1 bowl \n• Coordinated forms designed specifically for a Haft-Seen table\n• Listing is for one complete Haft-Seen set (as shown)\n\nDimensions: \nPlates: approx. 1in x 4.25in (H x W)\nBowl: approx. 1.5in x 3.25in (H x W)",
+      "price": 100,
+      "currency": "USD",
+      "state": "sold_out",
+      "quantity": 0,
+      "section_id": 56893276,
+      "etsy_url": "https://www.etsy.com/listing/4437538736/handmade-persian-haft-seen-set-minimal",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/70d724/7790434123/il_fullxfull.7790434123_7oho.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/70d724/7790434123/il_570xN.7790434123_7oho.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/e811b6/7579321656/il_fullxfull.7579321656_e8bg.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/e811b6/7579321656/il_570xN.7579321656_e8bg.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/669fd2/7579321654/il_fullxfull.7579321654_9q5f.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/669fd2/7579321654/il_570xN.7579321654_9q5f.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/fd96f1/7579321672/il_fullxfull.7579321672_jj9q.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/fd96f1/7579321672/il_570xN.7579321672_jj9q.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/deea33/7579321644/il_fullxfull.7579321644_6mlb.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/deea33/7579321644/il_570xN.7579321644_6mlb.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/e5709e/7627265497/il_fullxfull.7627265497_52xa.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/e5709e/7627265497/il_570xN.7627265497_52xa.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/245f0a/7579321670/il_fullxfull.7579321670_h4ku.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/245f0a/7579321670/il_570xN.7579321670_h4ku.jpg"
+        }
+      ],
+      "tags": [
+        "haft seen set",
+        "haft sin set",
+        "persian nowruz decor",
+        "nowruz tableware",
+        "persian ceramics",
+        "iranian new year",
+        "middle eastern decor",
+        "persian new year",
+        "handmade ceramics",
+        "spring equinox decor",
+        "modern haft seen set",
+        "modern haft sin set",
+        "persian gift"
+      ],
+      "created_at": "2026-01-08",
+      "updated_at": "2026-03-04"
+    },
+    {
+      "id": 4437506737,
+      "title": "Handmade Ceramic Cheese Board & Catch All Plate | Jewelry Dish | Wavy Glazed Snack Plate",
+      "description": "This handmade ceramic tray is sculpted into a soft, wavy form that’s perfect for holding jewelry, keys, or little daily treasures. The glossy white glaze pools beautifully in the curves, while the raw clay edges add warmth and an organic, modern feel.\n\nEach piece is one of a kind — shaped by hand, with natural variations that make every tray unique. Use it on your nightstand for rings and earrings, on a vanity for bracelets and chains, or by the entryway as a stylish catchall.\n\nA simple, elegant accent that elevates any space and makes a thoughtful gift for jewelry lovers, minimalists, or anyone who appreciates handmade pottery.\n\nPerfect for:\n• Cheese boards & charcuterie\n• Snacks, fruit, or desserts\n• Jewelry, rings, and everyday essentials\n• Entryway or bedside catch-all\n• Thoughtful handmade gifts\n\nDimensions: approx. 16in x 7in x 2.5 (L x W x H)\nCare: Food-safe, microwave-safe, and dishwasher-safe, though hand-washing is recommended to preserve the glaze.",
+      "price": 60,
+      "currency": "USD",
+      "state": "sold_out",
+      "quantity": 0,
+      "section_id": 56908347,
+      "etsy_url": "https://www.etsy.com/listing/4437506737/handmade-ceramic-cheese-board-catch-all",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/4c912d/7626771491/il_fullxfull.7626771491_tdn8.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/4c912d/7626771491/il_570xN.7626771491_tdn8.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/68cc5e/7626766571/il_fullxfull.7626766571_ovyy.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/68cc5e/7626766571/il_570xN.7626766571_ovyy.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/a96cf5/7626766569/il_fullxfull.7626766569_of4f.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/a96cf5/7626766569/il_570xN.7626766569_of4f.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/6b734d/7626766557/il_fullxfull.7626766557_lr88.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/6b734d/7626766557/il_570xN.7626766557_lr88.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/170dac/7578822086/il_fullxfull.7578822086_c7wp.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/170dac/7578822086/il_570xN.7578822086_c7wp.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/cdac8c/7578822084/il_fullxfull.7578822084_gpyz.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/cdac8c/7578822084/il_570xN.7578822084_gpyz.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/5d7caf/7578822078/il_fullxfull.7578822078_brtx.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/5d7caf/7578822078/il_570xN.7578822078_brtx.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/91869c/7626766573/il_fullxfull.7626766573_5xkx.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/91869c/7626766573/il_570xN.7626766573_5xkx.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/18fc9e/7578822062/il_fullxfull.7578822062_cirp.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/18fc9e/7578822062/il_570xN.7578822062_cirp.jpg"
+        }
+      ],
+      "tags": [
+        "jewelry tray",
+        "trinket dish",
+        "ceramic tray",
+        "wavy tray",
+        "catchall dish",
+        "vanity tray",
+        "ceramic decor",
+        "dresser tray",
+        "jewelry holder",
+        "minimalist decor",
+        "ring dish",
+        "girl dinner",
+        "cheese board"
+      ],
+      "created_at": "2026-01-08",
+      "updated_at": "2026-01-09"
+    },
+    {
+      "id": 4417457327,
+      "title": "Handmade Mountain Cups – Wheel Thrown Ceramic Cups with Carved Landscape Design",
+      "description": "This handmade ceramic cup features a carved mountain landscape wrapped around its surface, bringing a warm and rustic, nature-inspired feel to your daily routine. Wheel-thrown from stoneware and finished with earthy brown and soft blue glazes, each cup has its own unique character.\n\nPerfect for espresso, tea, small sips, or simply as a decorative piece on your shelf. Since every cup is individually carved and glazed, no two are exactly alike.\n\nPlease note:\nThe price is for one cup\n\nDimensions: approx. 2.75 in x 3 in (H x W)\nCare: Food safe, microwave safe, and handwashing is recommended to preserve the finish.",
+      "price": 30,
       "currency": "USD",
       "state": "sold_out",
       "quantity": 0,
       "section_id": 56360734,
-      "etsy_url": "https://www.etsy.com/listing/9001",
-      "images": [{ "full": "https://i.etsystatic.com/50927483/c/2008/2008/139/570/il/d68d68/7426261770/il_680x540.7426261770_7p3y.jpg", "thumb": "https://i.etsystatic.com/50927483/c/2008/2008/139/570/il/d68d68/7426261770/il_680x540.7426261770_7p3y.jpg" }],
-      "tags": [],
-      "created_at": "2025-11-10",
-      "updated_at": "2026-01-05"
+      "etsy_url": "https://www.etsy.com/listing/4417457327/handmade-mountain-cups-wheel-thrown",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/e37c27/7471041916/il_fullxfull.7471041916_6t86.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/e37c27/7471041916/il_570xN.7471041916_6t86.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/9264ee/7471041912/il_fullxfull.7471041912_s6o9.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/9264ee/7471041912/il_570xN.7471041912_s6o9.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/f91357/7518974405/il_fullxfull.7518974405_hiud.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/f91357/7518974405/il_570xN.7518974405_hiud.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/8f0270/7471041898/il_fullxfull.7471041898_c0p5.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/8f0270/7471041898/il_570xN.7471041898_c0p5.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/001e4a/7471041900/il_fullxfull.7471041900_l72z.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/001e4a/7471041900/il_570xN.7471041900_l72z.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/ce2e5c/7471041902/il_fullxfull.7471041902_1rcg.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/ce2e5c/7471041902/il_570xN.7471041902_1rcg.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/f496ee/7518974411/il_fullxfull.7518974411_3pr1.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/f496ee/7518974411/il_570xN.7518974411_3pr1.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/05cb7a/7471041918/il_fullxfull.7471041918_nfaf.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/05cb7a/7471041918/il_570xN.7471041918_nfaf.jpg"
+        }
+      ],
+      "tags": [
+        "mountain cup",
+        "espresso cup",
+        "mountain tumbler",
+        "handmade gift",
+        "mountain range cup",
+        "tea cup",
+        "mountain tea cup",
+        "wheel thrown cups",
+        "stoneware cups",
+        "cortado cup",
+        "small ceramic cup",
+        "mountain decor",
+        "coffee cup"
+      ],
+      "created_at": "2025-12-04",
+      "updated_at": "2025-12-24"
     },
     {
-      "id": 9002,
-      "title": "Indigo Glaze Planter",
-      "description": "",
-      "price": 70,
+      "id": 4418110105,
+      "title": "Green Geometric Planter - Small Speckled Clay Indoor Planter",
+      "description": "Bring a touch of handmade charm to your home with this small ceramic planter, crafted from stoneware clay and finished with a mix of raw texture and smooth glaze. The inside is fully glazed for easy cleaning, while the exterior features a beautiful balance of exposed clay and soft glaze accents — giving it an earthy, modern aesthetic.\n\nPerfect Planter for succulents or any small houseplant, this planter works beautifully in minimalist, earthy, or boho-inspired spaces. It also makes a thoughtful gift for plant lovers, new homeowners, or anyone who appreciates handmade pottery.\n\nDimensions:  approx 2.75 in x 3.25 in ( H x W )\nCare: Food-safe, microwave-safe, and dishwasher-safe, though hand-washing is recommended to preserve the glaze.",
+      "price": 25,
       "currency": "USD",
       "state": "sold_out",
       "quantity": 0,
       "section_id": 56359847,
-      "etsy_url": "https://www.etsy.com/listing/9002",
-      "images": [{ "full": "https://i.etsystatic.com/50927483/r/il/5f21c3/7522714405/il_600x600.7522714405_1k7q.jpg", "thumb": "https://i.etsystatic.com/50927483/r/il/5f21c3/7522714405/il_600x600.7522714405_1k7q.jpg" }],
-      "tags": [],
-      "created_at": "2025-10-05",
-      "updated_at": "2025-12-20"
+      "etsy_url": "https://www.etsy.com/listing/4418110105/green-geometric-planter-small-speckled",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/27c66e/7474836146/il_fullxfull.7474836146_gor2.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/27c66e/7474836146/il_570xN.7474836146_gor2.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/f8de93/7474836144/il_fullxfull.7474836144_icb3.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/f8de93/7474836144/il_570xN.7474836144_icb3.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/fc4c5d/7522769199/il_fullxfull.7522769199_b6xw.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/fc4c5d/7522769199/il_570xN.7522769199_b6xw.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/723a55/7522769201/il_fullxfull.7522769201_1n03.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/723a55/7522769201/il_570xN.7522769201_1n03.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/182ea0/7474836140/il_fullxfull.7474836140_p2pp.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/182ea0/7474836140/il_570xN.7474836140_p2pp.jpg"
+        }
+      ],
+      "tags": [
+        "Indoor Planter",
+        "Cactus Planter",
+        "Houseplant Pot",
+        "Desktop Planter",
+        "Speckled Clay Pot",
+        "Green Planter Pot",
+        "succulent pot",
+        "handmade home decor",
+        "Handmade Planter",
+        "small indoor planter",
+        "minimalist planter",
+        "Modern Planter",
+        "Geometric planter"
+      ],
+      "created_at": "2025-12-05",
+      "updated_at": "2026-03-04"
+    },
+    {
+      "id": 4418104956,
+      "title": "Green Geometric Planter - Small Speckled Clay Indoor Planter",
+      "description": "Bring a touch of handmade charm to your home with this small ceramic planter, crafted from stoneware clay and finished with a mix of raw texture and smooth glaze. The inside is fully glazed for easy cleaning, while the exterior features a beautiful balance of exposed clay and soft glaze accents — giving it an earthy, modern aesthetic.\n\nPerfect Planter for succulents or any small houseplant, this planter works beautifully in minimalist, earthy, or boho-inspired spaces. It also makes a thoughtful gift for plant lovers, new homeowners, or anyone who appreciates handmade pottery.\n\nDimensions:  approx 3 in x 3.5 in ( H x W )\nCare: Food-safe, microwave-safe, and dishwasher-safe, though hand-washing is recommended to preserve the glaze.",
+      "price": 25,
+      "currency": "USD",
+      "state": "sold_out",
+      "quantity": 0,
+      "section_id": 56359847,
+      "etsy_url": "https://www.etsy.com/listing/4418104956/green-geometric-planter-small-speckled",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/5f21c3/7522714405/il_fullxfull.7522714405_1k7q.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/5f21c3/7522714405/il_570xN.7522714405_1k7q.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/51c873/7522714391/il_fullxfull.7522714391_egcq.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/51c873/7522714391/il_570xN.7522714391_egcq.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/a0621b/7474781786/il_fullxfull.7474781786_oxv3.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/a0621b/7474781786/il_570xN.7474781786_oxv3.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/32b368/7522714403/il_fullxfull.7522714403_538x.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/32b368/7522714403/il_570xN.7522714403_538x.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/74ddcd/7522714407/il_fullxfull.7522714407_kxf7.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/74ddcd/7522714407/il_570xN.7522714407_kxf7.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/420e84/7522714401/il_fullxfull.7522714401_edlg.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/420e84/7522714401/il_570xN.7522714401_edlg.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/8824e6/7522714399/il_fullxfull.7522714399_6bvj.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/8824e6/7522714399/il_570xN.7522714399_6bvj.jpg"
+        }
+      ],
+      "tags": [
+        "Indoor Planter",
+        "Cactus Planter",
+        "Houseplant Pot",
+        "Desktop Planter",
+        "Speckled Clay Pot",
+        "Green Planter Pot",
+        "succulent pot",
+        "handmade home decor",
+        "Handmade Planter",
+        "small indoor planter",
+        "minimalist planter",
+        "Modern Planter",
+        "Geometric planter"
+      ],
+      "created_at": "2025-12-05",
+      "updated_at": "2026-03-04"
+    },
+    {
+      "id": 4417427283,
+      "title": "Handmade Stoneware Espresso Cup",
+      "description": "This handmade ceramic cup is wheel-thrown using a smooth stoneware clay and soda fired. \nthis cup was fired in a soda kiln, giving the surface its signature variation, subtle texture, and organic movement. The white crackle base blends beautifully with a flowing glaze design in deep red, teal, and earthy green tones, each drip and swirl created naturally during the firing process.\n\nPerfect as an espresso cup, small tea cup, or a cozy little vessel for matcha, cortados, or warm sips throughout the day. Each piece is unique, with natural variations that show the handmade process.\n\nDimensions: approx. 2.5 in x 3 in (H x W)\n\nCare: Food-safe, microwave-safe, and dishwasher-safe, though hand-washing is recommended to preserve the glaze.",
+      "price": 30,
+      "currency": "USD",
+      "state": "sold_out",
+      "quantity": 0,
+      "section_id": 56360734,
+      "etsy_url": "https://www.etsy.com/listing/4417427283/handmade-stoneware-espresso-cup",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/25a9a8/7518782023/il_fullxfull.7518782023_n7zt.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/25a9a8/7518782023/il_570xN.7518782023_n7zt.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/9d7618/7470851188/il_fullxfull.7470851188_dpto.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/9d7618/7470851188/il_570xN.7470851188_dpto.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/93b5e1/7518782021/il_fullxfull.7518782021_k89n.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/93b5e1/7518782021/il_570xN.7518782021_k89n.jpg"
+        }
+      ],
+      "tags": [
+        "espresso cup",
+        "cortado",
+        "tea cup",
+        "ceramic cup",
+        "soda fired cup",
+        "coffee cup",
+        "handmade ceramic",
+        "handmade cup",
+        "artisan pottery mug",
+        "modern ceramics"
+      ],
+      "created_at": "2025-12-04",
+      "updated_at": "2026-01-06"
+    },
+    {
+      "id": 4414365605,
+      "title": "Ikebana Kenzan shallow bowl – Wheel-Thrown Ceramic Floral Arrangement",
+      "description": "This piece is ideal for displaying single blooms, seasonal branches, or small curated arrangements. A beautiful addition to coffee tables, shelves, kitchen Islands, or a thoughtful gift for flower lovers.\n\nBowl comes with a 1.34-inch brass kenzan (frog pin), making it effortless to create balanced, sculptural ikebana flower arrangements. Just add water, place your stems on the frog pin, and let your creativity flow.\n\nDetails:\nDimensions: approx 1.75 x 5.5inch (H x W)\nHandmade, wheel-thrown stoneware\nIncludes 1.34&quot; brass frog pin (kenzan)\nFood-safe glaze (if needed for multi-use)\nPerfect for ikebana, floral art, or minimalist décor",
+      "price": 35,
+      "currency": "USD",
+      "state": "sold_out",
+      "quantity": 0,
+      "section_id": 56431823,
+      "etsy_url": "https://www.etsy.com/listing/4414365605/ikebana-kenzan-shallow-bowl-wheel-thrown",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/1b137f/7454208418/il_fullxfull.7454208418_iw6t.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/1b137f/7454208418/il_570xN.7454208418_iw6t.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/2d228e/7502135531/il_fullxfull.7502135531_6j6l.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/2d228e/7502135531/il_570xN.7502135531_6j6l.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/af703f/7454208588/il_fullxfull.7454208588_nq9n.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/af703f/7454208588/il_570xN.7454208588_nq9n.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/41c064/7454208518/il_fullxfull.7454208518_5zig.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/41c064/7454208518/il_570xN.7454208518_5zig.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/5cbea1/7502135609/il_fullxfull.7502135609_bdr8.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/5cbea1/7502135609/il_570xN.7502135609_bdr8.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/8dc03b/7454208768/il_fullxfull.7454208768_75hk.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/8dc03b/7454208768/il_570xN.7454208768_75hk.jpg"
+        }
+      ],
+      "tags": [
+        "ikebana bowl",
+        "ikebana vase",
+        "ikebana dish",
+        "kenzan bowl",
+        "flower frog vase",
+        "ceramic ikebana",
+        "ceramic flower bowl",
+        "minimal flower vase",
+        "handmade ikebana",
+        "japanese arrangement",
+        "floral arrangement",
+        "wabi sabi decor",
+        "unique flower vase"
+      ],
+      "created_at": "2025-11-29",
+      "updated_at": "2025-12-05"
+    },
+    {
+      "id": 4414264632,
+      "title": "Ikebana Kenzan shallow bowl – Wheel-Thrown Ceramic Floral Arrangement",
+      "description": "This piece is ideal for displaying single blooms, seasonal branches, or small curated arrangements. A beautiful addition to coffee tables, shelves, kitchen Islands, or a thoughtful gift for flower lovers.\n\nBowl comes with a 1.34-inch brass kenzan (frog pin), making it effortless to create balanced, sculptural ikebana flower arrangements. Just add water, place your stems on the frog pin, and let your creativity flow.\n\nDetails:\nDimensions: approx 1.5inch x 5.5inch (H x W)\nHandmade, wheel-thrown stoneware\nIncludes 1.34&quot; brass frog pin (kenzan)\nFood-safe glaze (if needed for multi-use)\nPerfect for ikebana, floral art, or minimalist décor",
+      "price": 35,
+      "currency": "USD",
+      "state": "sold_out",
+      "quantity": 0,
+      "section_id": 56431823,
+      "etsy_url": "https://www.etsy.com/listing/4414264632/ikebana-kenzan-shallow-bowl-wheel-thrown",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/e57832/7502118149/il_fullxfull.7502118149_59co.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/e57832/7502118149/il_570xN.7502118149_59co.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/aaeaca/7454165738/il_fullxfull.7454165738_emet.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/aaeaca/7454165738/il_570xN.7454165738_emet.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/32e4b4/7454167324/il_fullxfull.7454167324_gmjx.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/32e4b4/7454167324/il_570xN.7454167324_gmjx.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/0154fb/7502095559/il_fullxfull.7502095559_eg39.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/0154fb/7502095559/il_570xN.7502095559_eg39.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/e4e178/7502095995/il_fullxfull.7502095995_daa2.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/e4e178/7502095995/il_570xN.7502095995_daa2.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/e4df26/7502107413/il_fullxfull.7502107413_1wzq.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/e4df26/7502107413/il_570xN.7502107413_1wzq.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/d717fa/7502117137/il_fullxfull.7502117137_mzxp.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/d717fa/7502117137/il_570xN.7502117137_mzxp.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/52c7b6/7454192072/il_fullxfull.7454192072_m86v.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/52c7b6/7454192072/il_570xN.7454192072_m86v.jpg"
+        }
+      ],
+      "tags": [
+        "ikebana bowl",
+        "ikebana vase",
+        "ikebana dish",
+        "kenzan bowl",
+        "flower frog vase",
+        "ceramic ikebana",
+        "ceramic flower bowl",
+        "minimal flower vase",
+        "handmade ikebana",
+        "japanese arrangement",
+        "floral arrangement",
+        "wabi sabi decor",
+        "unique flower vase"
+      ],
+      "created_at": "2025-11-29",
+      "updated_at": "2025-12-01"
+    },
+    {
+      "id": 4412030130,
+      "title": "Handmade Ikebana Arrangement Bowl – Stoneware Flower Display Dish",
+      "description": "Bring the beauty of minimal floral design into your home with this handmade ceramic ikebana bowl. Wheel-thrown with warm, earthy tones and finished with a natural rustic glaze, this shallow dish is perfect for simple, intentional flower arrangements.\n\nBowl comes with a 1.34-inch brass kenzan (frog pin), making it effortless to create balanced, sculptural ikebana compositions. Just add water, place your stems on the frog pin, and let your creativity flow.\n\nThis piece is ideal for displaying single blooms, seasonal branches, or small curated arrangements. A beautiful addition to coffee tables, shelves, kitchen Islands, or a thoughtful gift for flower lovers.\n\nDetails:\nDimensions: approx 1.75inch x 6inch (H x W)\nHandmade, wheel-thrown stoneware\nIncludes 1.34&quot; brass frog pin (kenzan)\nFood-safe glaze (if needed for multi-use)\nPerfect for ikebana, floral art, or minimalist décor",
+      "price": 35,
+      "currency": "USD",
+      "state": "sold_out",
+      "quantity": 0,
+      "section_id": 56431823,
+      "etsy_url": "https://www.etsy.com/listing/4412030130/handmade-ikebana-arrangement-bowl",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/3976f3/7487990593/il_fullxfull.7487990593_1tyt.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/3976f3/7487990593/il_570xN.7487990593_1tyt.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/bf37b4/7440070156/il_fullxfull.7440070156_h9ud.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/bf37b4/7440070156/il_570xN.7440070156_h9ud.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/74fa8f/7487990599/il_fullxfull.7487990599_k0wb.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/74fa8f/7487990599/il_570xN.7487990599_k0wb.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/797006/7440070158/il_fullxfull.7440070158_f03h.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/797006/7440070158/il_570xN.7440070158_f03h.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/0ad93a/7487990595/il_fullxfull.7487990595_cmvj.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/0ad93a/7487990595/il_570xN.7487990595_cmvj.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/ae0446/7440070154/il_fullxfull.7440070154_jyjb.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/ae0446/7440070154/il_570xN.7440070154_jyjb.jpg"
+        }
+      ],
+      "tags": [
+        "ikebana bowl",
+        "ikebana vase",
+        "kenzan bowl",
+        "ikebana dish",
+        "flower frog vase",
+        "ceramic ikebana",
+        "ceramic flower bowl",
+        "minimal flower vase",
+        "handmade ikebana",
+        "flower arrangements",
+        "shallow flower dish",
+        "unique flower vase",
+        "wabi sabi decor"
+      ],
+      "created_at": "2025-11-26",
+      "updated_at": "2025-12-06"
+    },
+    {
+      "id": 4412049891,
+      "title": "Ikebana Kenzan Bowl – Wheel-Thrown Ceramic Arrangement Vessel",
+      "description": "This piece is ideal for displaying single blooms, seasonal branches, or small curated arrangements. A beautiful addition to coffee tables, shelves, kitchen Islands, or a thoughtful gift for flower lovers.\n\nBowl comes with a 1.34-inch brass kenzan (frog pin), making it effortless to create balanced, sculptural ikebana floral arrangements. Just add water, place your stems on the frog pin, and let your creativity flow.\n\nDetails:\nDimensions: approx 1.5inch x 3.75inch (H x W)\nHandmade, wheel-thrown stoneware\nIncludes 1.34&quot; brass frog pin (kenzan)\nFood-safe glaze (if needed for multi-use)\nPerfect for ikebana, floral art, or minimalist décor",
+      "price": 35,
+      "currency": "USD",
+      "state": "sold_out",
+      "quantity": 0,
+      "section_id": 56431823,
+      "etsy_url": "https://www.etsy.com/listing/4412049891/ikebana-kenzan-bowl-wheel-thrown-ceramic",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/e10eda/7440090782/il_fullxfull.7440090782_e918.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/e10eda/7440090782/il_570xN.7440090782_e918.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/8acac3/7440090778/il_fullxfull.7440090778_me6x.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/8acac3/7440090778/il_570xN.7440090778_me6x.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/cf991a/7488011475/il_fullxfull.7488011475_5zfq.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/cf991a/7488011475/il_570xN.7488011475_5zfq.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/c12ad3/7440090780/il_fullxfull.7440090780_fptc.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/c12ad3/7440090780/il_570xN.7440090780_fptc.jpg"
+        }
+      ],
+      "tags": [
+        "ikebana bowl",
+        "ikebana vase",
+        "kenzan bowl",
+        "ceramic ikebana",
+        "flower frog vase",
+        "minimal flower vase",
+        "handmade ikebana",
+        "japanese vase",
+        "floral arrangement",
+        "unique flower vase",
+        "wabi sabi decor",
+        "minimal vase",
+        "pottery home decor"
+      ],
+      "created_at": "2025-11-26",
+      "updated_at": "2026-03-24"
+    },
+    {
+      "id": 4412061413,
+      "title": "Handmade Ikebana Arrangement Bowl – Stoneware Flower Display Dish",
+      "description": "This piece is ideal for displaying single blooms, seasonal branches, or small curated arrangements. A beautiful addition to coffee tables, shelves, kitchen Islands, or a thoughtful gift for flower lovers.\n\nBowl comes with a 1.34-inch brass kenzan (frog pin), making it effortless to create balanced, sculptural ikebana compositions. Just add water, place your stems on the frog pin, and let your creativity flow.\n\nDetails:\nDimensions: approx 1.5inch x 3.75inch (H x W)\nHandmade, wheel-thrown stoneware\nIncludes 1.34&quot; brass frog pin (kenzan)\nFood-safe glaze (if needed for multi-use)\nPerfect for ikebana, floral art, or minimalist décor",
+      "price": 35,
+      "currency": "USD",
+      "state": "sold_out",
+      "quantity": 0,
+      "section_id": 56431823,
+      "etsy_url": "https://www.etsy.com/listing/4412061413/handmade-ikebana-arrangement-bowl",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/73b11b/7488090093/il_fullxfull.7488090093_otyv.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/73b11b/7488090093/il_570xN.7488090093_otyv.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/7f575e/7488069919/il_fullxfull.7488069919_2y8p.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/7f575e/7488069919/il_570xN.7488069919_2y8p.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/1ca88e/7488069921/il_fullxfull.7488069921_it3j.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/1ca88e/7488069921/il_570xN.7488069921_it3j.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/eb0d3e/7440148790/il_fullxfull.7440148790_9eeh.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/eb0d3e/7440148790/il_570xN.7440148790_9eeh.jpg"
+        }
+      ],
+      "tags": [
+        "ikebana bowl",
+        "ikebana vase",
+        "ikebana dish",
+        "kenzan bowl",
+        "flower frog vase",
+        "ceramic ikebana",
+        "ceramic flower bowl",
+        "minimal flower vase",
+        "handmade ikebana",
+        "japanese arragement",
+        "floral arrangement",
+        "wabi sabi decor",
+        "shallow flower dish"
+      ],
+      "created_at": "2025-11-26",
+      "updated_at": "2025-12-18"
+    },
+    {
+      "id": 4412068661,
+      "title": "Ikebana Kenzan Bowl – Wheel-Thrown Ceramic Floral Arrangement",
+      "description": "This piece is ideal for displaying single blooms, seasonal branches, or small curated arrangements. A beautiful addition to coffee tables, shelves, kitchen Islands, or a thoughtful gift for flower lovers.\n\nBowl comes with a 1.34-inch brass kenzan (frog pin), making it effortless to create balanced, sculptural ikebana flower arrangements. Just add water, place your stems on the frog pin, and let your creativity flow.\n\nDetails:\nDimensions: approx 2.75inch x 3.5inch (H x W)\nHandmade, wheel-thrown stoneware\nIncludes 1.34&quot; brass frog pin (kenzan)\nFood-safe glaze (if needed for multi-use)\nPerfect for ikebana, floral art, or minimalist décor",
+      "price": 35,
+      "currency": "USD",
+      "state": "sold_out",
+      "quantity": 0,
+      "section_id": 56431823,
+      "etsy_url": "https://www.etsy.com/listing/4412068661/ikebana-kenzan-bowl-wheel-thrown-ceramic",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/2f78b6/7440199056/il_fullxfull.7440199056_obut.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/2f78b6/7440199056/il_570xN.7440199056_obut.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/b053cc/7488119399/il_fullxfull.7488119399_878l.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/b053cc/7488119399/il_570xN.7488119399_878l.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/6f8af8/7488119395/il_fullxfull.7488119395_hl87.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/6f8af8/7488119395/il_570xN.7488119395_hl87.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/4df134/7488119391/il_fullxfull.7488119391_dmfs.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/4df134/7488119391/il_570xN.7488119391_dmfs.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/2a8be5/7488119397/il_fullxfull.7488119397_9lq7.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/2a8be5/7488119397/il_570xN.7488119397_9lq7.jpg"
+        }
+      ],
+      "tags": [
+        "ikebana bowl",
+        "ikebana vase",
+        "ikebana dish",
+        "kenzan bowl",
+        "flower frog vase",
+        "ceramic ikebana",
+        "ceramic flower bowl",
+        "minimal flower vase",
+        "handmade ikebana",
+        "japanese arrangement",
+        "floral arrangement",
+        "wabi sabi decor",
+        "unique flower vase"
+      ],
+      "created_at": "2025-11-26",
+      "updated_at": "2025-12-03"
+    },
+    {
+      "id": 4411355897,
+      "title": "Handmade Wavy White Ceramic Jewelry Tray – Organic Sculptural Trinket Dish/catchall",
+      "description": "This handmade ceramic tray is sculpted into a soft, wavy form that’s perfect for holding jewelry, keys, or little daily treasures. The glossy white glaze pools beautifully in the curves, while the raw clay edges add warmth and an organic, modern feel.\n\nEach piece is one of a kind — shaped by hand, with natural variations that make every tray unique. Use it on your nightstand for rings and earrings, on a vanity for bracelets and chains, or by the entryway as a stylish catchall.\n\nA simple, elegant accent that elevates any space and makes a thoughtful gift for jewelry lovers, minimalists, or anyone who appreciates handmade pottery.",
+      "price": 45,
+      "currency": "USD",
+      "state": "sold_out",
+      "quantity": 0,
+      "section_id": null,
+      "etsy_url": "https://www.etsy.com/listing/4411355897/handmade-wavy-white-ceramic-jewelry-tray",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/74db65/7436077494/il_fullxfull.7436077494_ih5f.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/74db65/7436077494/il_570xN.7436077494_ih5f.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/a96ff2/7483996633/il_fullxfull.7483996633_61dx.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/a96ff2/7483996633/il_570xN.7483996633_61dx.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/16e2a9/7483996625/il_fullxfull.7483996625_tla2.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/16e2a9/7483996625/il_570xN.7483996625_tla2.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/f9931d/7483996631/il_fullxfull.7483996631_kn8z.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/f9931d/7483996631/il_570xN.7483996631_kn8z.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/43cedf/7483996629/il_fullxfull.7483996629_lsxa.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/43cedf/7483996629/il_570xN.7483996629_lsxa.jpg"
+        }
+      ],
+      "tags": [
+        "jewelry tray",
+        "trinket dish",
+        "ceramic tray",
+        "wavy tray",
+        "catchall dish",
+        "vanity tray",
+        "ceramic decor",
+        "dresser tray",
+        "jewelry holder",
+        "minimalist decor",
+        "modern pottery",
+        "handmade gift",
+        "ring dish"
+      ],
+      "created_at": "2025-11-25",
+      "updated_at": "2025-12-15"
+    },
+    {
+      "id": 4411299215,
+      "title": "Black Lava Ceramic Pot • Wheel-Thrown Stoneware Planter • Modern Minimalist Plant Pot",
+      "description": "This planter blends minimalist form with high-contrast texture, making it a standout piece for ferns, succulents, or any plant that deserves a unique home. The raw exterior meets a smooth interior, creating a functional yet artful design that works beautifully in modern and earthy home\n\nDimensions: approx. 3.25 in x 4.5 in (H x W)\nCare: Hand wash only for longer lasting planter.",
+      "price": 30,
+      "currency": "USD",
+      "state": "sold_out",
+      "quantity": 0,
+      "section_id": 56359847,
+      "etsy_url": "https://www.etsy.com/listing/4411299215/black-lava-ceramic-pot-wheel-thrown",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/b4ab86/7483662077/il_fullxfull.7483662077_pbvl.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/b4ab86/7483662077/il_570xN.7483662077_pbvl.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/285fe7/7483661321/il_fullxfull.7483661321_2p5y.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/285fe7/7483661321/il_570xN.7483661321_2p5y.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/d65b0a/7435742156/il_fullxfull.7435742156_fyie.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/d65b0a/7435742156/il_570xN.7435742156_fyie.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/112448/7435742158/il_fullxfull.7435742158_kabt.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/112448/7435742158/il_570xN.7435742158_kabt.jpg"
+        }
+      ],
+      "tags": [
+        "lava planter",
+        "black planter",
+        "stoneware plant pot",
+        "modern decor",
+        "Indoor planter",
+        "dark magma planter",
+        "handmade planter",
+        "ceramic planter",
+        "houseplant planter",
+        "desktop planter",
+        "pottery gift",
+        "cactus planter",
+        "unique plant pot"
+      ],
+      "created_at": "2025-11-25",
+      "updated_at": "2026-01-17"
+    },
+    {
+      "id": 4409749953,
+      "title": "Ceramic Espresso Cup • Small Handmade Tea Cup • Modern Boho Stoneware Pottery",
+      "description": "Enjoy your favorite espresso or tea in this handmade soda-fired ceramic cup, crafted from speckled stoneware and wheel-thrown with a smooth, minimalist shape. The soda firing process creates rich, organic surface variations and subtle sheen, making each cup completely one-of-a-kind.\n\nDimensions: approx. 2.75 in x 2.75 in (H x W)\nCare: Food safe, microwave safe, and handwashing is recommended to preserve the finish.\n\nA beautiful everyday cup or a thoughtful handmade gift for coffee and tea lovers.",
+      "price": 25,
+      "currency": "USD",
+      "state": "sold_out",
+      "quantity": 0,
+      "section_id": 56360734,
+      "etsy_url": "https://www.etsy.com/listing/4409749953/ceramic-espresso-cup-small-handmade-tea",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/d68d68/7426261770/il_fullxfull.7426261770_7p3y.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/d68d68/7426261770/il_570xN.7426261770_7p3y.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/0fb214/7474173857/il_fullxfull.7474173857_hhvw.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/0fb214/7474173857/il_570xN.7474173857_hhvw.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/edec83/7426249594/il_fullxfull.7426249594_myyn.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/edec83/7426249594/il_570xN.7426249594_myyn.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/5b88c2/7426249592/il_fullxfull.7426249592_aa7j.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/5b88c2/7426249592/il_570xN.7426249592_aa7j.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/bc82fe/7474173855/il_fullxfull.7474173855_nhft.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/bc82fe/7474173855/il_570xN.7474173855_nhft.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/24aaf8/7474173859/il_fullxfull.7474173859_ke9t.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/24aaf8/7474173859/il_570xN.7474173859_ke9t.jpg"
+        }
+      ],
+      "tags": [
+        "Espresso cup",
+        "soda fired cup",
+        "handmade cup",
+        "handmade ceramic",
+        "cortado cup",
+        "Tea cup",
+        "boho kitchen decor",
+        "minimalist pottery",
+        "soda fired pottery",
+        "ceramic espresso cup"
+      ],
+      "created_at": "2025-11-22",
+      "updated_at": "2025-12-30"
+    },
+    {
+      "id": 4409148297,
+      "title": "Handmade Ceramic Espresso Cup – Minimalist Pink & White Stoneware Cup",
+      "description": "This handmade ceramic cup is wheel-thrown using a smooth stoneware clay and finished with a soft pink-to-white gradient glaze. The subtle crackle texture and natural clay tones give it a warm, minimalist look that fits beautifully in any kitchen or coffee ritual.\n\nPerfect as an espresso cup, small tea cup, or a cozy little vessel for matcha, cortados, or warm sips throughout the day. Each piece is unique, with natural variations that show the handmade process.\n\nDimensions: approx. 2.5 in x 3 in (H x W)\n\nCare: Food-safe, microwave-safe, and dishwasher-safe, though hand-washing is recommended to preserve the glaze.",
+      "price": 30,
+      "currency": "USD",
+      "state": "sold_out",
+      "quantity": 0,
+      "section_id": 56360734,
+      "etsy_url": "https://www.etsy.com/listing/4409148297/handmade-ceramic-espresso-cup-minimalist",
+      "images": [
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/50c40d/7470535315/il_fullxfull.7470535315_39nl.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/50c40d/7470535315/il_570xN.7470535315_39nl.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/d25699/7470535317/il_fullxfull.7470535317_j5i9.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/d25699/7470535317/il_570xN.7470535317_j5i9.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/9d3e84/7470535313/il_fullxfull.7470535313_rcq9.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/9d3e84/7470535313/il_570xN.7470535313_rcq9.jpg"
+        },
+        {
+          "full": "https://i.etsystatic.com/50927483/r/il/04aa06/7470535319/il_fullxfull.7470535319_duml.jpg",
+          "thumb": "https://i.etsystatic.com/50927483/r/il/04aa06/7470535319/il_570xN.7470535319_duml.jpg"
+        }
+      ],
+      "tags": [
+        "espresso cup",
+        "cortado",
+        "tea cup",
+        "ceramic cup",
+        "soda fired cup"
+      ],
+      "created_at": "2025-11-21",
+      "updated_at": "2026-02-20"
     }
   ]
 }
