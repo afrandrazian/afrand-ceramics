@@ -5,6 +5,9 @@ on:
   #   - cron: '*/30 * * * *' # Every 30 minutes
   workflow_dispatch: {} # Manual trigger — re-enable schedule after Etsy API approved
 
+permissions:
+  contents: write
+
 jobs:
   sync:
     runs-on: ubuntu-latest
