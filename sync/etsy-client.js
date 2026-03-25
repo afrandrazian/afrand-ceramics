@@ -8,7 +8,9 @@ const BASE_URL = 'https://api.etsy.com/v3/application';
 
 class EtsyClient {
   constructor({ apiKey, refreshToken }) {
+    // apiKey may be "keystring:sharedsecret" or just "keystring"
     this.apiKey = apiKey;
+    this.clientId = apiKey.split(':')[0]; // OAuth client_id is keystring only
     this.refreshToken = refreshToken;
     this.accessToken = null;
     this.newRefreshToken = null; // Set after token refresh
@@ -22,7 +24,7 @@ class EtsyClient {
   async refreshAccessToken() {
     const body = new URLSearchParams({
       grant_type: 'refresh_token',
-      client_id: this.apiKey,
+      client_id: this.clientId,
       refresh_token: this.refreshToken,
     });
 
